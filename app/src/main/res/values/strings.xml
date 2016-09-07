@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">PrisonApp</string>
-    <string name="dob">DOB at the time last crime was committed</string>
+    <string name="dob">Were you a minor when the last crime was committed?</string>
     <string name="conviction_date">Date of the last conviction</string>
     <string name="offense_catagory">Category of Offense</string>
     <string name="which_court">Which Court?</string>
@@ -24,6 +24,7 @@
         <item>Public order offense</item>
         <item>Sexual offense</item>
         <item>Insurance Fraud</item>
+        <item>Murder</item>
         <item>Assault</item>
         <item>Dangerous Driving</item>
         <item>Other Motoring Offense</item>
@@ -31,12 +32,12 @@
     </array>
 
     <array name="punishment_array">
+        <item>None</item>
         <item>Prison greater than 12 months</item>
         <item>Suspended sentence greater than 24 months</item>
         <item>Probation greater than 24 months</item>
-
         <item>Other</item>
-        <item>None</item>
+
     </array>
     
     
