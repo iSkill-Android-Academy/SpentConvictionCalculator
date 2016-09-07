@@ -1,6 +1,44 @@
 <resources>
+    <string name="mission_statement">Vision and Mission
+
+Our Vision expresses the fundamental objectives of IPRT, which underpin all of our work:
+
+IPRT’s Vision
+
+Respect for rights in the penal system with prison as a last resort.
+
+To achieve this Vision, IPRT commits itself to achieving a number of specific objectives. These objectives are set out in the Mission Statement of the organization:
+
+IPRT’s Mission Statement
+
+IPRT is committed to respecting the rights of everyone in the penal system and to reducing imprisonment. We are working towards progressive reform of the penal system based on evidence-led policies and on a commitment to combating social injustice. IPRT will achieve our goals through effecting changes in policy, in practice, in law and through influencing public opinion.
+
+All of IPRT’s work is underpinned and informed by our Values as an organization:
+
+IPRT’s Values
+
+Respect for human rights and a commitment to combating social injustice
+
+Advocacy based on research and evidence-led policies
+
+Working constructively with others in the penal system
+About Us
+
+    Why Penal Reform?
+    IPRT Patron and Advocates
+    IPRT Vision and Mission
+    Who we are
+    What we do
+    How we are funded
+    What we have achieved
+    Governance and Best Practice
+
+</string>
+
+
+    <string name="calculator_link">Click To Calculate </string>
     <string name="app_name">PrisonApp</string>
-    <string name="dob">DOB at the time last crime was committed</string>
+    <string name="dob">Were you a minor when the last crime was committed?</string>
     <string name="conviction_date">Date of the last conviction</string>
     <string name="offense_catagory">Category of Offense</string>
     <string name="which_court">Which Court?</string>
@@ -24,6 +62,7 @@
         <item>Public order offense</item>
         <item>Sexual offense</item>
         <item>Insurance Fraud</item>
+        <item>Murder</item>
         <item>Assault</item>
         <item>Dangerous Driving</item>
         <item>Other Motoring Offense</item>
@@ -31,12 +70,12 @@
     </array>
 
     <array name="punishment_array">
+        <item>None</item>
         <item>Prison greater than 12 months</item>
         <item>Suspended sentence greater than 24 months</item>
         <item>Probation greater than 24 months</item>
-
         <item>Other</item>
-        <item>None</item>
+
     </array>
     
     
