@@ -1,12 +1,149 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
     xmlns:tools="http://schemas.android.com/tools"
+    tools:context="ie.iprt.spentconvictioncalculator.FormActivity">
+<LinearLayout
+
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="ie.iprt.spentconvictioncalculator.FormActivity">
+    android:orientation="vertical">
 
-</RelativeLayout>
+
+    <TextView
+        android:layout_marginBottom="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dob" />
+
+    <DatePicker
+        android:id="@+id/date_picker_dob"
+        android:datePickerMode="spinner"
+        android:calendarViewShown="false"
+        android:layout_marginBottom="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_marginBottom="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/conviction_date"/>
+
+    <DatePicker
+        android:id="@+id/date_picker_conviction_date"
+        android:datePickerMode="spinner"
+        android:calendarViewShown="false"
+        android:layout_marginBottom="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_marginBottom="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/offense_catagory"/>
+
+    <Spinner
+
+        android:layout_marginBottom="10dp"
+        android:id="@+id/offense_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/offense_array"
+        />
+
+    <TextView
+        android:layout_marginBottom="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/which_court"/>
+
+    <Spinner
+        android:layout_marginBottom="10dp"
+        android:id="@+id/court_list_spinner"
+        android:entries="@array/court_list_array"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_marginBottom="10dp"
+        android:text="@string/no_of_convictions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/edit_text_num_convictions"
+        android:layout_marginBottom="10dp"
+        android:inputType="number"
+
+        android:hint="@string/no_of_convictions_hint"
+        android:textColorHint="@color/hint_grey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:text="@string/suspended"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup_suspended_sentence"
+            android:layout_marginBottom="10dp"
+            android:text="@string/suspended"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+            <RadioButton
+                android:id="@+id/radio_yes"
+                android:text="@string/yes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <RadioButton
+                android:id="@+id/radio_no"
+                android:text="@string/no"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </RadioGroup>
+
+
+</LinearLayout>
+
+    <TextView
+        android:layout_marginBottom="10dp"
+        android:text="@string/punishment_recieved"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Spinner
+        android:layout_marginBottom="30dp"
+        android:id="@+id/punishment_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/punishment_array"
+        />
+
+    <Button
+        android:id="@+id/form_submit_button"
+        android:onClick="onSubmitButtonClicked"
+        android:text="@string/submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+
+
+
+</LinearLayout>
+</ScrollView>
