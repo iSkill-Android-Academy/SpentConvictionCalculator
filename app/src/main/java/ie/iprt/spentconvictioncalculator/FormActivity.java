@@ -75,66 +75,67 @@ public class FormActivity extends AppCompatActivity {
 
     }
 
-    public void calculationLogic(){
-
+    public void calculationLogic() {
 
 
         Date convictionDate = getDateFromDatePicker();
         //Date currentDate = new Date(System.currentTimeMillis());
 
-        long difference = System.currentTimeMillis() - convictionDate.getTime() ;
+        long difference = System.currentTimeMillis() - convictionDate.getTime();
 
 
+       // if (mDOB.isChecked()) {
+           // Toast.makeText(this, "dude is under 18", Toast.LENGTH_LONG).show();
 
-       if (mDOB.isChecked() ){
-           Toast.makeText(this,"dude is under 18", Toast.LENGTH_LONG).show();
 
+            // put the under 18 code here
 
-           // put the under 18 code here
+        //}
+        if (mOffenseSpinner.getSelectedItem().toString().equals("Sexual offense") ||
+                mOffenseSpinner.getSelectedItem().toString().equals("Murder") ||
+                mOffenseSpinner.getSelectedItem().toString().equals("Dangerous Driving") ||
+                mCourtSpinner.getSelectedItem().toString().equals("Central Criminal Court") ||
+                mCourtSpinner.getSelectedItem().toString().equals("Special Criminal Court") ||
+                mPunishmentSpinner.getSelectedItem().toString().equals("Prison greater than 12 months") ||
+                mPunishmentSpinner.getSelectedItem().toString().equals("Suspended sentence greater than 24 months") ||
+                mPunishmentSpinner.getSelectedItem().toString().equals("Probation greater than 24 months")
+                ) {
+            Toast.makeText(this, "Must always declare", Toast.LENGTH_LONG).show();
+        } else if (mOffenseSpinner.getSelectedItem().toString().equals("Assault") &&
+                Integer.parseInt(mNumOffense.getText().toString()) > 1) {
+            Toast.makeText(this, "" +
+                    "Must declare " +
+                    "(assault) If only one such conviction, it can become spent but must continue to be declared under Garda Vetting", Toast.LENGTH_LONG).show();
+        } else if (mOffenseSpinner.getSelectedItem().toString().equals("Insurance Fraud") &&
+                Integer.parseInt(mNumOffense.getText().toString()) > 1) {
+            Toast.makeText(this, "" +
+                    "Must declare " +
+                    "(Insurance fraud) If only one such conviction, can become spent but must continue to be declared when taking out insurance policies", Toast.LENGTH_LONG).show();
+        } else if (mOffenseSpinner.getSelectedItem().toString().equals("All Other Offenses") &&
+                Integer.parseInt(mNumOffense.getText().toString()) > 1) {
+            Toast.makeText(this, "Must always declare", Toast.LENGTH_LONG).show();
 
-       }
-       else if(mOffenseSpinner.getSelectedItem().toString().equals("Sexual offense")||
-               mOffenseSpinner.getSelectedItem().toString().equals("Murder")||
-               mOffenseSpinner.getSelectedItem().toString().equals("Dangerous Driving")||
-               mCourtSpinner.getSelectedItem().toString().equals("Central Criminal Court")||
-               mCourtSpinner.getSelectedItem().toString().equals("Special Criminal Court")||
-               mPunishmentSpinner.getSelectedItem().toString().equals("Prison greater than 12 months")||
-               mPunishmentSpinner.getSelectedItem().toString().equals("Suspended sentence greater than 24 months")||
-               mPunishmentSpinner.getSelectedItem().toString().equals("Probation greater than 24 months")
-               ){
-           Toast.makeText(this, "Must always declare", Toast.LENGTH_LONG).show();
         }
 
-       else if(mOffenseSpinner.getSelectedItem().toString().equals("Assault")&&
-               Integer.parseInt(mNumOffense.getText().toString())> 1){
-           Toast.makeText(this, "" +
-                   "Must declare " +
-                   "(assault) If only one such conviction, it can become spent but must continue to be declared under Garda Vetting", Toast.LENGTH_LONG).show();
-       }
-       else if(mOffenseSpinner.getSelectedItem().toString().equals("Insurance Fraud")&&
-               Integer.parseInt(mNumOffense.getText().toString())> 1){
-           Toast.makeText(this, "" +
-                   "Must declare " +
-                   "(Insurance fraud) If only one such conviction, can become spent but must continue to be declared when taking out insurance policies", Toast.LENGTH_LONG).show();
-       }
-        else if (mOffenseSpinner.getSelectedItem().toString().equals("All Other Offenses")&&
-               Integer.parseInt(mNumOffense.getText().toString())> 1){
-           Toast.makeText(this, "Must always declare", Toast.LENGTH_LONG).show();
+        else if (mDOB.isChecked()) {
+           // Toast.makeText(this, "dude is under 18", Toast.LENGTH_LONG).show();
 
-       }
+            if (difference > 94670778000l ) {
+                Toast.makeText(this, "over 3 years Do not have to declare", Toast.LENGTH_LONG).show();
+            } else {
+                Toast.makeText(this, "less than 3 years, must declare", Toast.LENGTH_LONG).show();
+            }
 
-        else if(difference > 220898482000l){
-            Toast.makeText(this, "over 7 years Do not have to declare", Toast.LENGTH_LONG).show();
         }
         else{
-            Toast.makeText(this, "less than 7 years, must declare", Toast.LENGTH_LONG).show();
+            if (difference > 220898482000l) {
+                Toast.makeText(this, "over 7 years Do not have to declare", Toast.LENGTH_LONG).show();
+            } else {
+                Toast.makeText(this, "less than 7 years, must declare", Toast.LENGTH_LONG).show();
+            }
         }
 
-
-
+        }
 
 
     }
-
-
-}
