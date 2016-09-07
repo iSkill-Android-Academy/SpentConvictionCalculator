@@ -16,6 +16,7 @@
 
     <ImageView
         android:src="@drawable/home_screen_main_logo"
+        android:adjustViewBounds="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
@@ -27,13 +28,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
-    <ImageView
-        android:src="@drawable/home_screen_main_logo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
 
     <Button
-        
+
         android:background="@color/red"
         android:text="@string/calculator_link"
         android:layout_gravity ="center"
