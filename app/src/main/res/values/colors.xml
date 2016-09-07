@@ -6,4 +6,5 @@
     <color name="hint_grey">#d3d3d3</color>
     <color name="red">#DC2200</color>
     <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
 </resources>
