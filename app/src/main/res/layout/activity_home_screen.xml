@@ -23,6 +23,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
         >
         <FrameLayout
             android:layout_width="wrap_content"
@@ -30,7 +32,8 @@
             android:layout_weight="1">
             <Button
                 android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
+                android:onClick="onMissionStatementClick"
                 android:background="@drawable/mission_statement_main_sc"
                 android:adjustViewBounds="true"
                 android:padding="6dp"
@@ -52,7 +55,7 @@
             android:layout_weight="1">
             <Button
                 android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:background="@drawable/form_main_sc_button"
                 android:padding="6dp"
                 android:adjustViewBounds="true"
@@ -74,6 +77,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
+         android:layout_marginTop="10dp"
+         android:layout_marginBottom="10dp"
         >
         <FrameLayout
             android:layout_width="wrap_content"
@@ -81,7 +86,7 @@
             android:layout_weight="1">
             <Button
                 android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:background="@drawable/external_links_main_scr"
                 android:adjustViewBounds="true"
                 android:padding="6dp"
@@ -102,7 +107,8 @@
             android:layout_weight="1">
             <Button
                 android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
+                android:onClick="onAboutClick"
                 android:background="@drawable/about_iprt_home_icon"
                 android:padding="6dp"
                 android:adjustViewBounds="true"

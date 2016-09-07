@@ -12,8 +12,19 @@ public class HomeScreen extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home_screen);
     }
-    public void onViewButtonClicked(View view){
+
+    public void onViewButtonClicked(View view) {
         Intent intent = new Intent(this, FormActivity.class);
         startActivity(intent);
     }
+
+    public void onAboutClick(View view) {
+        Intent intent = new Intent(this, AboutActivity.class);
+        startActivity(intent);
+    }
+
+    public void onMissionStatementClick(View view) {
+        Intent intent = new Intent(this, MissionStatementActivity.class);
+    }
+
 }
