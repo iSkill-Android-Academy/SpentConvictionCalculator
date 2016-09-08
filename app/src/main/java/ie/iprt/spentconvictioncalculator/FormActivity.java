@@ -111,16 +111,21 @@ public class FormActivity extends AppCompatActivity {
 
             resultsLogic = " For more serious crimes and sentences you must always declare";
 
+
+
+
         } else if (mOffenseSpinner.getSelectedItem().toString().equals("Assault") &&
                 Integer.parseInt(mNumOffense.getText().toString()) > 1) {
 
-            resultsLogic = "Must Declare Assault, If only one such conviction, it can become spent but must continue to be declared under Garda Vetting";
+            resultsLogic = "Must declare multiple assault Convictions, If only one such conviction, it can become spent but must continue to be declared under Garda Vetting";
+
+
 
         } else if (mOffenseSpinner.getSelectedItem().toString().equals("Insurance Fraud") &&
                 Integer.parseInt(mNumOffense.getText().toString()) > 1) {
 
 
-            resultsLogic = "Must Declare Insurance fraud, If only one such conviction, it can become spent but must continue to be declared when taking out insurance policies";
+            resultsLogic = "Must declare multiple insurance fraud, If only one such conviction, it can become spent but must continue to be declared when taking out insurance policies";
         } else if (mOffenseSpinner.getSelectedItem().toString().equals("All Other Offenses") &&
                 Integer.parseInt(mNumOffense.getText().toString()) > 1) {
 
@@ -131,10 +136,20 @@ public class FormActivity extends AppCompatActivity {
 
 
             if (difference > 94670778000l ) {
+                if (mOffenseSpinner.getSelectedItem().toString().equals("Assault") &&
+                        Integer.parseInt(mNumOffense.getText().toString()) == 1) {
 
-                resultsLogic = "Do not have to declare, over 3 years have passed";
+                    resultsLogic = "Do not have to declare if less than one Assault conviction after 3 years but must continue to be declared under Garda Vetting";
 
-            } else {
+                }
+
+                 if (mOffenseSpinner.getSelectedItem().toString().equals("Insurance Fraud") &&
+                    Integer.parseInt(mNumOffense.getText().toString())== 1) {
+
+                    resultsLogic = "Do not have to declare if less than one Insurance Fraud conviction after 3 years but must continue to be declared when taking out insurance policies";   }
+
+            }
+            else {
 
 
                 resultsLogic = "Must declare 3 years have not passed yet";
@@ -143,11 +158,19 @@ public class FormActivity extends AppCompatActivity {
         }
         else{
             if (difference > 220898482000l) {
+                if (mOffenseSpinner.getSelectedItem().toString().equals("Assault") &&
+                        Integer.parseInt(mNumOffense.getText().toString()) == 1) {
 
+                    resultsLogic = "Do not have to declare if less than one Assault conviction after 7 years but must continue to be declared under Garda Vetting";
 
-                resultsLogic = "Do not have to declare, over 7 years have passed";
+                }
+                if (mOffenseSpinner.getSelectedItem().toString().equals("Insurance Fraud") &&
+                        Integer.parseInt(mNumOffense.getText().toString())== 1) {
 
-            } else {
+                    resultsLogic = "Do not have to declare if less than one Insurance Fraud conviction after 7 years but must continue to be declared when taking out insurance policies";   }
+
+            }
+            else {
 
 
                 resultsLogic = "Must declare 7 years have not passed yet";
