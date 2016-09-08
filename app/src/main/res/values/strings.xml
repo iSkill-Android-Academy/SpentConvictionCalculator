@@ -1,5 +1,5 @@
 <resources>
-    <string name="mission_statement"><b>Vision and Mission</b>\n
+    <string name="mission_statement"><u><b>Vision and Mission</b></u>\n
 
 Our Vision expresses the fundamental objectives of IPRT, which underpin all of our work:\n
 
@@ -7,20 +7,19 @@ IPRT’s Vision to have respect for rights in the penal system with prison as a 
 
 To achieve this Vision, IPRT commits itself to achieving a number of specific objectives. These objectives are set out in the Mission Statement of the organization:
 
-\n<b>IPRT’s Mission Statement.</b>\n
-
+\n<u><b>IPRT’s Mission Statement.</b></u>\n
 IPRT is committed to respecting the rights of everyone in the penal system and to reducing imprisonment. We are working towards progressive reform of the penal system based on evidence-led policies and on a commitment to combating social injustice. IPRT will achieve our goals through effecting changes in policy, in practice, in law and through influencing public opinion.
 
 All of IPRT’s work is underpinned and informed by our Values as an organization:\n
 
-<b>IPRT’s Values</b>\n
+<u><b>IPRT’s Values</b></u>\n
 
 Respect for human rights and a commitment to combating social injustice\n
 
 Advocacy based on research and evidence-led policies\n
 
 Working constructively with others in the penal system\n
-<b>About Us</b>\n
+<u><b>About Us</b></u>\n
 
     Why Penal Reform?\n
     IPRT Patron and Advocates\n
