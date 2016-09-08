@@ -25,6 +25,7 @@ public class HomeScreen extends AppCompatActivity {
 
     public void onMissionStatementClick(View view) {
         Intent intent = new Intent(this, MissionStatementActivity.class);
+        startActivity(intent);
     }
 
 }
