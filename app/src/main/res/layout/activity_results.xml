@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_height="match_parent"
-    android:layout_width="match_parent"
-    xmlns:tools="http://schemas.android.com/tools"
-    tools:context="ie.iprt.spentconvictioncalculator.FormActivity">
     <LinearLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context="ie.iprt.spentconvictioncalculator.FormActivity"
+        xmlns:android="http://schemas.android.com/apk/res/android"
         android:background="@color/white"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -24,10 +22,36 @@
             android:paddingBottom="25dp"
             />
         <TextView
+            android:gravity="center"
+            android:textSize="40dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp"
             android:id="@+id/resultsTextView"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+
+                android:layout_gravity="bottom"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:id="@+id/resultsBackButton"
+                android:onClick="onBackViewClicked"
+                android:background="@drawable/button_red_square"
+                android:textColor="@color/white"
+                android:text="@string/back"/>
+
+        </LinearLayout>
 
 
     </LinearLayout>
-</ScrollView>

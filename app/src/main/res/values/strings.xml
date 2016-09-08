@@ -50,6 +50,7 @@ About Us
     <string name="submit">submit</string>
     <string name="yes">Yes</string>
     <string name="no">No</string>
+    <string name="back">Back</string>
     
     <array name="court_list_array">
         <item>District Court</item>

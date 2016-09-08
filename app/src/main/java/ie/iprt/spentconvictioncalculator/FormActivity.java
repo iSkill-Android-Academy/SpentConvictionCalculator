@@ -53,9 +53,7 @@ public class FormActivity extends AppCompatActivity {
         mOffenseSpinner = (Spinner)findViewById(R.id.offense_spinner);
         mCourtSpinner = (Spinner)findViewById(R.id.court_list_spinner);
         mNumOffense = (EditText)findViewById(R.id.edit_text_num_convictions);
-        mSuspendedSentenceRadio = (RadioGroup)findViewById(R.id.radioGroup_suspended_sentence);
-        mYes = (RadioButton)findViewById(R.id.radio_yes);
-        mNo = (RadioButton)findViewById(R.id.radio_no);
+
         mPunishmentSpinner = (Spinner)findViewById(R.id.punishment_spinner);
 
     }
