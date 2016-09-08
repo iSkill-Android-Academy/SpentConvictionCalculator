@@ -18,15 +18,7 @@ import java.util.Date;
 
 public class FormActivity extends AppCompatActivity {
 
-    public static final String DOB_KEY = "DOB";
-    public static final String CONVICTION_DATE_KEY = "CONVICTION";
-    public static final String OFFENSE_CAT_KEY = "OFFENSE_CAT";
-    public static final String COURT_SPINNER_KEY = "COURT_SPINNER";
-    public static final String NO_CONVICTIONS_KEY = "NUMBER_CONVICTIONS";
-    public static final String SUSPENDED_SENTENCE_RADIO_KEY = "SUSPENDED_SENTENCE";
-    public static final String YES_RADIO_KEY = "YES_RADIO";
-    public static final String NO_RADIO_KEY = "NO_RADIO";
-    public static final String PUNISHMENT_SPINNER_KEY = "PUNISHMENT_SPINNER";
+
 
     public static final String RESULTS_KEY = "RESULTS";
 
@@ -36,12 +28,9 @@ public class FormActivity extends AppCompatActivity {
     private Spinner mOffenseSpinner;
     private Spinner mCourtSpinner;
     private EditText mNumOffense;
-    private RadioGroup mSuspendedSentenceRadio;
-    private RadioButton mYes;
-    private RadioButton mNo;
     private Spinner mPunishmentSpinner;
 
-    String resultsLogic = "error"; //results logic variable
+    String resultsLogic = "Results not available"; //results logic variable
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
