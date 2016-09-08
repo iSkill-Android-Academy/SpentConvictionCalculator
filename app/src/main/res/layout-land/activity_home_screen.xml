@@ -18,22 +18,23 @@
             android:layout_weight="1"
             >
             <FrameLayout
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
+                android:layout_weight="2"
                 >
                 <ImageView
-                    android:layout_width="130dp"
-                    android:layout_height="130dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="25dp"
                     android:layout_gravity="center"
-                    android:background="@drawable/ic_mission"
+                    android:src="@drawable/ic_mission"
                     android:adjustViewBounds="true"
                     />
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:src="@drawable/frame"
-                    android:layout_marginRight="6dp"
+                    android:layout_margin="5dp"
                     android:adjustViewBounds="true"/>
                 <Button
                     android:layout_width="match_parent"
@@ -43,25 +44,26 @@
                     android:gravity="bottom|center"
                     android:background="@color/transparent"
                     android:id="@+id/mission_statement"
-                    android:layout_marginBottom="8dp"/>
+                    android:layout_marginBottom="15dp"/>
             </FrameLayout>
             <FrameLayout
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
+                android:layout_weight="2"
                 >
                 <ImageView
-                    android:layout_width="130dp"
-                    android:layout_height="130dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="25dp"
                     android:layout_gravity="center"
-                    android:background="@drawable/ic_form"
+                    android:src="@drawable/ic_form"
                     android:adjustViewBounds="true"
                     />
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:src="@drawable/frame"
-                    android:layout_marginLeft="6dp"/>
+                    android:layout_margin="5dp"/>
                 <Button
                     android:layout_width="match_parent"
                     android:layout_height="fill_parent"
@@ -70,24 +72,25 @@
                     android:text="Form"
                     android:gravity="bottom|center"
                     android:background="@color/transparent"
-                    android:layout_marginBottom="8dp"/>
+                    android:layout_marginBottom="15dp"/>
             </FrameLayout>
             <FrameLayout
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_weight="1">
+                android:layout_weight="2">
                 <ImageView
-                    android:layout_width="110dp"
-                    android:layout_height="110dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="25dp"
                     android:layout_gravity="center"
-                    android:background="@drawable/ic_external_links"
+                    android:src="@drawable/ic_external_links"
                     android:adjustViewBounds="true"
                     />
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:src="@drawable/frame"
-                    android:layout_marginRight="6dp"
+                    android:layout_margin="5dp"
                     android:adjustViewBounds="true" />
                 <Button
                     android:layout_width="match_parent"
@@ -96,25 +99,26 @@
                     android:gravity="bottom|center"
                     android:background="@color/transparent"
                     android:id="@+id/external_links"
-                    android:layout_marginBottom="8dp"/>
+                    android:layout_marginBottom="15dp"/>
             </FrameLayout>
             <FrameLayout
-                android:layout_width="wrap_content"
+                android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
+                android:layout_weight="2"
                 >
                 <ImageView
-                    android:layout_width="110dp"
-                    android:layout_height="110dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="25dp"
                     android:layout_gravity="center"
-                    android:background="@drawable/ic_about"
+                    android:src="@drawable/ic_about"
                     android:adjustViewBounds="true"
                     />
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:src="@drawable/frame"
-                    android:layout_marginLeft="6dp"/>
+                    android:layout_margin="5dp"/>
                 <Button
                     android:layout_width="match_parent"
                     android:layout_height="fill_parent"
@@ -123,7 +127,7 @@
                     android:gravity="bottom|center"
                     android:background="@color/transparent"
                     android:id="@+id/about_button"
-                    android:layout_marginBottom="8dp"/>
+                    android:layout_marginBottom="15dp"/>
             </FrameLayout>
         </LinearLayout>
 </LinearLayout>
