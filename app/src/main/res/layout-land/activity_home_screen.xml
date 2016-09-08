@@ -21,15 +21,13 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-
                 >
                 <ImageView
-                    android:layout_width="fill_parent"
-                    android:layout_height="match_parent"
-                    android:background="@drawable/mission_statement_main_sc"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/ic_mission"
                     android:adjustViewBounds="true"
-                    android:padding="6dp"
-                    android:layout_margin="10dp"
                     />
                 <ImageView
                     android:layout_width="match_parent"
@@ -51,15 +49,13 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:layout_margin="10dp"
                 >
                 <ImageView
-                    android:layout_width="fill_parent"
-                    android:layout_height="match_parent"
-                    android:background="@drawable/form_main_sc_button"
-                    android:padding="6dp"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/ic_form"
                     android:adjustViewBounds="true"
-                    android:layout_marginLeft="6dp"
                     />
                 <ImageView
                     android:layout_width="match_parent"
@@ -79,15 +75,14 @@
             <FrameLayout
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:layout_margin="10dp">
+                android:layout_weight="1">
                 <ImageView
-                    android:layout_width="fill_parent"
-                    android:layout_height="match_parent"
-                    android:background="@drawable/external_links_main_scr"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/ic_external_links"
                     android:adjustViewBounds="true"
-                    android:padding="6dp"
-                    android:layout_marginRight="6dp"/>
+                    />
                 <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
@@ -107,14 +102,13 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:layout_margin="10dp">
+                >
                 <ImageView
-                    android:layout_width="fill_parent"
-                    android:layout_height="match_parent"
-                    android:background="@drawable/info_button_main_scr"
-                    android:padding="6dp"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/ic_about"
                     android:adjustViewBounds="true"
-                    android:layout_marginLeft="6dp"
                     />
                 <ImageView
                     android:layout_width="match_parent"
