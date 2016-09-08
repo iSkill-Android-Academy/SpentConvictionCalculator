@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
@@ -30,46 +30,55 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1">
-            <Button
+            <ImageView
                 android:layout_width="fill_parent"
                 android:layout_height="match_parent"
-                android:onClick="onMissionStatementClick"
                 android:background="@drawable/mission_statement_main_sc"
                 android:adjustViewBounds="true"
                 android:padding="6dp"
                 android:layout_marginRight="6dp"
-                android:text="Mission Statement"
-                android:gravity="bottom|center"
                 />
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:src="@drawable/frame"
                 android:layout_marginRight="6dp"
-                android:adjustViewBounds="true"
-                />
+                android:adjustViewBounds="true" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:onClick="onMissionStatementClick"
+                android:text="Mission Statement"
+                android:gravity="bottom|center"
+                android:background="@color/transparent"
+                android:id="@+id/mission_statement"
+                android:layout_marginBottom="8dp"/>
         </FrameLayout>
         <FrameLayout
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1">
-            <Button
+            <ImageView
                 android:layout_width="fill_parent"
                 android:layout_height="match_parent"
                 android:background="@drawable/form_main_sc_button"
                 android:padding="6dp"
                 android:adjustViewBounds="true"
-                android:layout_marginLeft="6dp"
-                android:onClick="onViewButtonClicked"
-                android:id="@+id/form_button_main"
-                android:text="Form"
-                android:gravity="bottom|center"/>
+                android:layout_marginLeft="6dp" />
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:src="@drawable/frame"
                 android:layout_marginLeft="6dp"/>
-
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:onClick="onViewButtonClicked"
+                android:id="@+id/form_button_main"
+                android:text="Form"
+                android:gravity="bottom|center"
+                android:background="@color/transparent"
+                android:layout_marginBottom="8dp"/>
         </FrameLayout>
     </LinearLayout>
     <!--Second Line-->
@@ -84,43 +93,55 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1">
-            <Button
+            <ImageView
                 android:layout_width="fill_parent"
                 android:layout_height="match_parent"
                 android:background="@drawable/external_links_main_scr"
                 android:adjustViewBounds="true"
                 android:padding="6dp"
-                android:layout_marginRight="6dp"
-                android:text="External Links"
-                android:gravity="bottom|center"
-                />
+                android:layout_marginRight="6dp"/>
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:src="@drawable/frame"
                 android:layout_marginRight="6dp"
                 android:adjustViewBounds="true" />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:text="External Links"
+                android:gravity="bottom|center"
+                android:background="@color/transparent"
+                android:id="@+id/external_links"
+                android:layout_marginBottom="8dp"
+                />
         </FrameLayout>
         <FrameLayout
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1">
-            <Button
+            <ImageView
                 android:layout_width="fill_parent"
                 android:layout_height="match_parent"
-                android:onClick="onAboutClick"
-                android:background="@drawable/about_iprt_home_icon"
+                android:background="@drawable/info_button_main_scr"
                 android:padding="6dp"
                 android:adjustViewBounds="true"
                 android:layout_marginLeft="6dp"
-                android:text="About"
-                android:gravity="bottom|center"/>
+                />
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:src="@drawable/frame"
                 android:layout_marginLeft="6dp"/>
-
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:onClick="onAboutClick"
+                android:text="About"
+                android:gravity="bottom|center"
+                android:background="@color/transparent"
+                android:id="@+id/about_button"
+                android:layout_marginBottom="8dp"/>
         </FrameLayout>
     </LinearLayout>
 
