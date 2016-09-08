@@ -1,12 +1,351 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="ie.iprt.spentconvictioncalculator.ExternalLinksActivity">
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="0dp"
+        android:paddingRight="0dp"
+        android:paddingTop="0dp"
+        android:orientation="vertical"
+        android:background="@color/white"
+        tools:context="ie.iskill.collaborationexample.eric.EricActivity">
 
-</RelativeLayout>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/home_screen_main_logo"
+            android:adjustViewBounds="true"
+            android:paddingTop="15dp"
+            android:paddingBottom="25dp"
+            android:layout_marginRight="10dp"
+            />
+        <LinearLayout
+            android:background="@color/cream"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:paddingTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:paddingBottom="5dp"
+            >
+
+
+
+            <ImageView
+                android:layout_width="150px"
+                android:layout_height="150px"
+                android:src="@drawable/iasio"
+                android:onClick="oncharity1Click"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"/>
+
+    <LinearLayout
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="2"
+
+       >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/charity1"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:textSize="20dp"/>
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/charity1Phone"
+            android:textColor="@color/black"
+
+
+            android:textSize="20dp"
+            android:gravity="center"/>
+        </LinearLayout>
+
+            <ImageView
+
+                android:layout_weight="1"
+                android:layout_width="150px"
+                android:layout_height="150px"
+                android:src="@drawable/mail"
+                android:onClick="oncharity1mail"
+                />
+
+
+        </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            >
+
+            </LinearLayout>
+
+
+        <LinearLayout
+            android:background="@color/cream"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:paddingTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:paddingBottom="5dp"
+                >
+
+
+
+                <ImageView
+                    android:layout_width="150px"
+                    android:layout_height="150px"
+                    android:src="@drawable/ucasedh"
+                    android:onClick="oncharity2Click"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"/>
+
+                <LinearLayout
+                    android:layout_marginLeft="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="2"
+
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/charity2"
+                        android:textColor="@color/black"
+                        android:gravity="center"
+                        android:textSize="20dp"/>
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/charity2Phone"
+                        android:textColor="@color/black"
+
+
+                        android:textSize="20dp"
+                        android:gravity="center"/>
+                </LinearLayout>
+
+                <ImageView
+
+                    android:layout_weight="1"
+                    android:layout_width="150px"
+                    android:layout_height="150px"
+                    android:src="@drawable/mail"
+                    android:onClick="oncharity2mail"
+                    />
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            >
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:background="@color/cream"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:paddingTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:paddingBottom="5dp"
+                >
+
+
+
+                <ImageView
+                    android:layout_width="150px"
+                    android:layout_height="150px"
+                    android:src="@drawable/carafterprison"
+                    android:onClick="oncharity3Click"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"/>
+
+                <LinearLayout
+                    android:layout_marginLeft="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="2"
+
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/charity3"
+                        android:textColor="@color/black"
+                        android:gravity="center"
+                        android:textSize="17dp"/>
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/charity3Phone"
+                        android:textColor="@color/black"
+
+
+                        android:textSize="20dp"
+                        android:gravity="center"/>
+                </LinearLayout>
+
+                <ImageView
+
+                    android:layout_weight="1"
+                    android:layout_width="150px"
+                    android:layout_height="150px"
+                    android:src="@drawable/mail"
+                    android:onClick="oncharity3mail"
+                    />
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            >
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:background="@color/cream"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:paddingTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:paddingBottom="5dp"
+                >
+
+
+
+                <ImageView
+                    android:layout_width="150px"
+                    android:layout_height="150px"
+                    android:src="@drawable/bridge"
+                    android:onClick="oncharity4Click"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"/>
+
+                <LinearLayout
+                    android:layout_marginLeft="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="2"
+
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/charity4"
+                        android:textColor="@color/black"
+                        android:gravity="center"
+                        android:textSize="20dp"/>
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/charity4Phone"
+                        android:textColor="@color/black"
+
+
+                        android:textSize="20dp"
+                        android:gravity="center"/>
+                </LinearLayout>
+
+                <ImageView
+
+                    android:layout_weight="1"
+                    android:layout_width="150px"
+                    android:layout_height="150px"
+                    android:src="@drawable/mail"
+                    android:onClick="oncharity4mail"
+                    />
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            >
+
+        </LinearLayout>
+
+
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:onClick="onMainReturn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Return to main"
+            />
+
+    </LinearLayout>
+</ScrollView>
