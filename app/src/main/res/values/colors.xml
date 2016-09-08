@@ -7,5 +7,6 @@
     <color name="red">#DC2200</color>
     <color name="white">#FFFFFF</color>
     <color name="black">#000000</color>
+    <color name="cream">#fdffd9</color>
     <color name="transparent">#0000</color>
 </resources>
