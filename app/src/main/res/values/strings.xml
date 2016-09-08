@@ -77,6 +77,20 @@ About Us
         <item>Other</item>
 
     </array>
+
+
+    <!--Strings for external Links page-->
+    <string name="charity1">www.iasio.ie</string>
+    <string name="charity1Phone">01 866 2706</string>
+
+    <string name="charity2">www.ucasadh.ie</string>
+    <string name="charity2Phone">051 830 479</string>
+
+    <string name="charity3">www.careafterprison.ie</string>
+    <string name="charity3Phone">00 000 000</string>
+
+    <string name="charity4">www.bridge.ie</string>
+    <string name="charity4Phone">018 78 0901</string>
     
     
 </resources>
