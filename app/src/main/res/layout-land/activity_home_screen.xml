@@ -9,7 +9,7 @@
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:src="@drawable/landscape_main_logo"
+            android:src="@drawable/landscape_main_logo_dimention"
             android:adjustViewBounds="true"
             />
         <LinearLayout
