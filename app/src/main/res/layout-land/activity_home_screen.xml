@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/landscape_main_logo"
+            android:adjustViewBounds="true"
+
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            >
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+
+                >
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/mission_statement_main_sc"
+                    android:adjustViewBounds="true"
+                    android:padding="6dp"
+                    android:layout_margin="10dp"
+                    />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/frame"
+                    android:layout_marginRight="6dp"
+                    android:adjustViewBounds="true"/>
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:onClick="onMissionStatementClick"
+                    android:text="Mission Statement"
+                    android:gravity="bottom|center"
+                    android:background="@color/transparent"
+                    android:id="@+id/mission_statement"
+                    android:layout_marginBottom="8dp"/>
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                >
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/form_main_sc_button"
+                    android:padding="6dp"
+                    android:adjustViewBounds="true"
+                    android:layout_marginLeft="6dp"
+                    />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/frame"
+                    android:layout_marginLeft="6dp"/>
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:onClick="onViewButtonClicked"
+                    android:id="@+id/form_button_main"
+                    android:text="Form"
+                    android:gravity="bottom|center"
+                    android:background="@color/transparent"
+                    android:layout_marginBottom="8dp"/>
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_margin="10dp">
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/external_links_main_scr"
+                    android:adjustViewBounds="true"
+                    android:padding="6dp"
+                    android:layout_marginRight="6dp"/>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/frame"
+                    android:layout_marginRight="6dp"
+                    android:adjustViewBounds="true" />
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:text="External Links"
+                    android:gravity="bottom|center"
+                    android:background="@color/transparent"
+                    android:id="@+id/external_links"
+                    android:layout_marginBottom="8dp"/>
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_margin="10dp">
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/info_button_main_scr"
+                    android:padding="6dp"
+                    android:adjustViewBounds="true"
+                    android:layout_marginLeft="6dp"
+                    />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/frame"
+                    android:layout_marginLeft="6dp"/>
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="fill_parent"
+                    android:onClick="onAboutClick"
+                    android:text="About"
+                    android:gravity="bottom|center"
+                    android:background="@color/transparent"
+                    android:id="@+id/about_button"
+                    android:layout_marginBottom="8dp"/>
+            </FrameLayout>
+        </LinearLayout>
+</LinearLayout>
+
