@@ -44,6 +44,10 @@ public class HomeScreen extends AppCompatActivity {
         Intent intent = new Intent(this, MissionStatementActivity.class);
         startActivity(intent);
     }
+    public void onExternalLinksActivity(View view){
+        Intent intent = new Intent(this, ExternalLinksActivity.class);
+        startActivity(intent);
+    }
 
 
 }
