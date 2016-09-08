@@ -28,6 +28,8 @@ public class FormActivity extends AppCompatActivity {
     public static final String NO_RADIO_KEY = "NO_RADIO";
     public static final String PUNISHMENT_SPINNER_KEY ="PUNISHMENT_SPINNER";
 
+    public static final String RESULTS_KEY = "RESULTS";
+
 
     private CheckBox mDOB;
     private DatePicker mConvictionDate;
@@ -38,6 +40,8 @@ public class FormActivity extends AppCompatActivity {
     private RadioButton mYes;
     private RadioButton mNo;
     private Spinner mPunishmentSpinner;
+
+    String resultsLogic = "error"; //results logic variable
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -56,9 +60,20 @@ public class FormActivity extends AppCompatActivity {
 
     }
     public void onSubmitButtonClicked(View view){
-        Intent intent = new Intent(this , ResultsActivity.class);
-        startActivity(intent);
+
+
         calculationLogic();
+        Intent intent = new Intent(this , ResultsActivity.class);
+        Bundle extras = new Bundle();      //setting up bundle to put the result values in.
+        extras.putString(RESULTS_KEY, resultsLogic);
+        intent.putExtras(extras);
+
+
+        startActivity(intent);
+
+
+
+
 
     }
 
@@ -79,16 +94,11 @@ public class FormActivity extends AppCompatActivity {
 
 
         Date convictionDate = getDateFromDatePicker();
-        //Date currentDate = new Date(System.currentTimeMillis());
+
 
         long difference = System.currentTimeMillis() - convictionDate.getTime();
 
 
-       // if (mDOB.isChecked()) {
-           // Toast.makeText(this, "dude is under 18", Toast.LENGTH_LONG).show();
-
-
-            // put the under 18 code here
 
         //}
         if (mOffenseSpinner.getSelectedItem().toString().equals("Sexual offense") ||
@@ -100,38 +110,49 @@ public class FormActivity extends AppCompatActivity {
                 mPunishmentSpinner.getSelectedItem().toString().equals("Suspended sentence greater than 24 months") ||
                 mPunishmentSpinner.getSelectedItem().toString().equals("Probation greater than 24 months")
                 ) {
-            Toast.makeText(this, "Must always declare", Toast.LENGTH_LONG).show();
+
+            resultsLogic = " For more serious crimes and sentences you must always declare";
+
         } else if (mOffenseSpinner.getSelectedItem().toString().equals("Assault") &&
                 Integer.parseInt(mNumOffense.getText().toString()) > 1) {
-            Toast.makeText(this, "" +
-                    "Must declare " +
-                    "(assault) If only one such conviction, it can become spent but must continue to be declared under Garda Vetting", Toast.LENGTH_LONG).show();
+
+            resultsLogic = "Must Declare Assault, If only one such conviction, it can become spent but must continue to be declared under Garda Vetting";
+
         } else if (mOffenseSpinner.getSelectedItem().toString().equals("Insurance Fraud") &&
                 Integer.parseInt(mNumOffense.getText().toString()) > 1) {
-            Toast.makeText(this, "" +
-                    "Must declare " +
-                    "(Insurance fraud) If only one such conviction, can become spent but must continue to be declared when taking out insurance policies", Toast.LENGTH_LONG).show();
+
+
+            resultsLogic = "Must Declare Insurance fraud, If only one such conviction, it can become spent but must continue to be declared when taking out insurance policies";
         } else if (mOffenseSpinner.getSelectedItem().toString().equals("All Other Offenses") &&
                 Integer.parseInt(mNumOffense.getText().toString()) > 1) {
-            Toast.makeText(this, "Must always declare", Toast.LENGTH_LONG).show();
 
+            resultsLogic = " Must always declare when  there are two or more offenses";
         }
 
         else if (mDOB.isChecked()) {
-           // Toast.makeText(this, "dude is under 18", Toast.LENGTH_LONG).show();
+
 
             if (difference > 94670778000l ) {
-                Toast.makeText(this, "over 3 years Do not have to declare", Toast.LENGTH_LONG).show();
+
+                resultsLogic = "Do not have to declare, over 3 years have passed";
+
             } else {
-                Toast.makeText(this, "less than 3 years, must declare", Toast.LENGTH_LONG).show();
+
+
+                resultsLogic = "Must declare 3 years have not passed yet";
             }
 
         }
         else{
             if (difference > 220898482000l) {
-                Toast.makeText(this, "over 7 years Do not have to declare", Toast.LENGTH_LONG).show();
+
+
+                resultsLogic = "Do not have to declare, over 7 years have passed";
+
             } else {
-                Toast.makeText(this, "less than 7 years, must declare", Toast.LENGTH_LONG).show();
+
+
+                resultsLogic = "Must declare 7 years have not passed yet";
             }
         }
 
