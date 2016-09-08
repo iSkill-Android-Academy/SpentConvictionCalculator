@@ -5,6 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
     <LinearLayout
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:paddingBottom="@dimen/activity_vertical_margin"
@@ -13,17 +15,28 @@
         android:paddingTop="0dp"
         android:orientation="vertical"
         android:background="@color/white"
+
+
         tools:context="ie.iskill.collaborationexample.eric.EricActivity">
 
         <ImageView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:src="@drawable/home_screen_main_logo"
-            android:adjustViewBounds="true"
-            android:paddingTop="15dp"
-            android:paddingBottom="25dp"
+            android:layout_height="140dp"
+            android:background="@drawable/iprt_white_logo"
+            android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
-            />
+            android:layout_marginTop="10dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            >
+
+        </LinearLayout>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#000000" />
         <LinearLayout
             android:background="@color/cream"
 
@@ -62,12 +75,14 @@
 
        >
             <TextView
+                android:autoLink="web"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/charity1"
                 android:textColor="@color/black"
                 android:gravity="center"
-                android:textSize="20dp"/>
+                android:textSize="20dp"
+                android:id="@+id/link1"/>
 
         <TextView
 
@@ -81,18 +96,23 @@
             android:gravity="center"/>
         </LinearLayout>
 
-            <ImageView
-
+            <Button
+                android:id="@+id/email_charity_1"
                 android:layout_weight="1"
                 android:layout_width="150px"
                 android:layout_height="150px"
-                android:src="@drawable/mail"
-                android:onClick="oncharity1mail"
+                android:background="@drawable/mail"
+                android:onClick="sendContact"
+
                 />
 
 
         </LinearLayout>
         </LinearLayout>
+        <View
+            android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="#000000" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -101,6 +121,11 @@
             >
 
             </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#000000" />
 
 
         <LinearLayout
@@ -141,6 +166,7 @@
 
                     >
                     <TextView
+                        android:autoLink="web"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/charity2"
@@ -160,18 +186,23 @@
                         android:gravity="center"/>
                 </LinearLayout>
 
-                <ImageView
+                <Button
 
                     android:layout_weight="1"
                     android:layout_width="150px"
                     android:layout_height="150px"
-                    android:src="@drawable/mail"
-                    android:onClick="oncharity2mail"
+                    android:background="@drawable/mail"
+                    android:onClick="sendContact"
+                    android:id="@+id/email_charity_2"
                     />
 
 
             </LinearLayout>
         </LinearLayout>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#000000" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -180,6 +211,10 @@
             >
 
         </LinearLayout>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#000000" />
 
         <LinearLayout
             android:background="@color/cream"
@@ -219,12 +254,13 @@
 
                     >
                     <TextView
+                        android:autoLink="web"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/charity3"
                         android:textColor="@color/black"
                         android:gravity="center"
-                        android:textSize="17dp"/>
+                        android:textSize="15dp"/>
 
                     <TextView
 
@@ -238,18 +274,24 @@
                         android:gravity="center"/>
                 </LinearLayout>
 
-                <ImageView
+                <Button
 
                     android:layout_weight="1"
                     android:layout_width="150px"
                     android:layout_height="150px"
-                    android:src="@drawable/mail"
-                    android:onClick="oncharity3mail"
+                    android:background="@drawable/mail"
+                    android:onClick="sendContact"
+                    android:id="@+id/email_charity_3"
                     />
 
 
             </LinearLayout>
         </LinearLayout>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#000000" />
+
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -258,6 +300,11 @@
             >
 
         </LinearLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#000000" />
 
         <LinearLayout
             android:background="@color/cream"
@@ -297,6 +344,7 @@
 
                     >
                     <TextView
+                        android:autoLink="web"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/charity4"
@@ -316,18 +364,23 @@
                         android:gravity="center"/>
                 </LinearLayout>
 
-                <ImageView
+                <Button
 
                     android:layout_weight="1"
                     android:layout_width="150px"
                     android:layout_height="150px"
-                    android:src="@drawable/mail"
+                    android:background="@drawable/mail"
                     android:onClick="oncharity4mail"
+                    android:id="@+id/email_charity_4"
                     />
 
 
             </LinearLayout>
         </LinearLayout>
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#000000" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -340,12 +393,20 @@
 
 
         <Button
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="0dp"
             android:onClick="onMainReturn"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+
             android:text="Return to main"
+
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+
+            android:layout_marginBottom="0dp"
+            android:background="@drawable/button_red_square"
+            android:textColor="@color/white"
             />
+
+
 
     </LinearLayout>
 </ScrollView>
