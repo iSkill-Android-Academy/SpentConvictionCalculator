@@ -120,7 +120,7 @@ Working constructively with others in the penal system\n
 
     <string name="iskill_button">iSkill Training</string>
 
-    <string name="app_written_by">This App was written by iSkill students on behalf of the Irish Penal Reform Trust.</string>
+    <string name="app_written_by">This App was developed during the iSkill Android Academy course on behalf of the Irish Penal Reform Trust.</string>
 
     <string name="about_land_one">The Irish Penal Reform Trust (IPRT) is Ireland\'s leading non-governmental organisation campaigning for the rights of people in prison and the progressive reform of Irish penal policy. \n\nEstablished in 1994, IPRT has a well-established role as an independent voice in public debate on the Irish penal system.</string>
 
@@ -130,11 +130,11 @@ Working constructively with others in the penal system\n
 
     <string name="about_land_four">We believe that penal reform is necessary, urgent and achievable.</string>
 
-    <string name="adam_name">Adam king</string>
+    <string name="adam_name">Adam King</string>
 
-    <string name="christina_name">Christina Oluwaseun</string>
+    <string name="christina_name">Christina Onasanwo</string>
 
-    <string name="eric_name">Eric strong</string>
+    <string name="eric_name">Eric Strong</string>
 
     <string name="gerard_name">Gerard Keogh</string>
 
@@ -142,5 +142,9 @@ Working constructively with others in the penal system\n
 
     <string name="tomas_name">Tomas Gabor</string>
 
-    <string name="credits_string">Credits:</string>
+    <string name="credits_string">Developers:</string>
+
+    <string name="about_iskill">About iSkill:</string>
+
+    <string name="iskill_description">iSkill Training is a limited company delivering flexible training courses suitable for all ages – employed and unemployed – under government contracts in a variety of areas of specialism. Our main focus is to provide inspiring and professional courses showing that learning is fun!</string>
 </resources>
