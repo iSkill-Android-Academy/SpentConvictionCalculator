@@ -32,9 +32,15 @@ Working constructively with others in the penal system\n
 
 </string>
 
+    <string name="instructions_title"><u><b>Instructions</b></u></string>
+
+    <string name="form_instructions_page_button"><u><b>Form: </b></u> The questionnaire page is designed to help you calculate your convictions and guide you on which step to take next</string>
+    <string name="external_links_instructions_page_button"><u><b>External Links: </b></u>Helpful informative Links to various websites that might be useful to our Users.</string>
+    <string name="about_instructions_page_button"><u><b>About: </b></u>This is an informative page about IPRT and their Mission statement and objectives\n  Users can also find information on the team that created this APP</string>
+
 
     <string name="calculator_link">Click To Calculate </string>
-    <string name="app_name">Spent Conviction Calculator</string>
+    <string name="app_name">SpentConviction</string>
     <string name="dob">Were you a minor when the last crime was committed?</string>
     <string name="conviction_date">Date of the last conviction</string>
     <string name="offense_catagory">Category of Offense</string>
@@ -91,12 +97,21 @@ Working constructively with others in the penal system\n
     <string name="charity4Phone">018 78 0901</string>
 
     <!--Tomas strings-->
-    <string name="mission_statement_main_scr">Mission Statement</string>
+    <string name="mission_statement_main_scr">Instructions</string>
     <string name="form_main_scr">Form</string>
     <string name="external_links_main_scr">External Links</string>
     <string name="about_manin_scr">About</string>
 
-    
+    <string name="alert_title"><u>Disclaimer</u></string>
+    <string name="alert_message"><b>To proceed you must agree to the below disclaimer.</b>
+                                    \n\nThis information should only be used as a guide, it is not legal advice.
+                                    \nIf in doubt please contact a legal professional.
+                                    \nIPRT is not responsible for any inaccuracy or changes in the law.</string>
+    <string name="alert_agree_option">Accept</string>
+    <string name="alert_disagree_option">Decline</string>
+    <string name="alert_disagree_toast">In order to proceed, you need to accept</string>
+
+
 
 
     //josh strings

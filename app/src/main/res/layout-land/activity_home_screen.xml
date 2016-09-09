@@ -4,7 +4,8 @@
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:background="@color/white">
 
         <ImageView
             android:layout_width="match_parent"
@@ -99,7 +100,8 @@
                     android:gravity="bottom|center"
                     android:background="@color/transparent"
                     android:id="@+id/external_links"
-                    android:layout_marginBottom="15dp"/>
+                    android:layout_marginBottom="15dp"
+                    android:onClick="onExternalLinksActivity"/>
             </FrameLayout>
             <FrameLayout
                 android:layout_width="match_parent"
