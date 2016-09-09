@@ -36,8 +36,8 @@
             android:layout_marginBottom="10dp"
             android:text="@string/about_iprt"
             android:textColor="@color/black"
-            android:textStyle="bold|italic"
-            android:textSize="16dp"/>
+            android:textSize="16dp"
+            android:id="@+id/about_text_id_font"/>
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
@@ -94,6 +94,14 @@
             android:layout_height="wrap_content"
             android:text="@string/about_vert_five"/>
 
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#000000"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp"/>
+
         <TextView
             android:paddingLeft="10dp"
             android:paddingRight="10dp"
@@ -102,9 +110,9 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
             android:textColor="@color/black"
-            android:textStyle="bold|italic"
             android:textSize="16dp"
-            android:text="@string/about_developers"/>
+            android:text="@string/about_developers"
+            android:id="@+id/about_developers_id_font"/>
 
         <TextView
             android:layout_marginLeft="10dp"
@@ -236,6 +244,14 @@
                 android:layout_height="wrap_content" />
         </LinearLayout>
 
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#000000"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+
         <TextView
             android:paddingLeft="10dp"
             android:paddingRight="10dp"
@@ -244,9 +260,9 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
             android:textColor="@color/black"
-            android:textStyle="bold|italic"
             android:textSize="16dp"
-            android:text="@string/about_iskill"/>
+            android:text="@string/about_iskill"
+            android:id="@+id/about_iskill_id_font"/>
 
         <TextView
             android:paddingLeft="10dp"
