@@ -34,7 +34,7 @@ Working constructively with others in the penal system\n
 
 
     <string name="calculator_link">Click To Calculate </string>
-    <string name="app_name">Spent Conviction Calculator</string>
+    <string name="app_name">SpentConviction</string>
     <string name="dob">Were you a minor when the last crime was committed?</string>
     <string name="conviction_date">Date of the last conviction</string>
     <string name="offense_catagory">Category of Offense</string>
