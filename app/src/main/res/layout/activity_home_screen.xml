@@ -14,7 +14,7 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:src="@drawable/iprt_white_logo"
+        android:src="@drawable/home_screen_main_logo"
         android:adjustViewBounds="true"
         android:paddingTop="15dp"
         android:paddingBottom="25dp"
@@ -48,7 +48,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="fill_parent"
                 android:onClick="onMissionStatementClick"
-                android:text="Mission Statement"
+                android:text="@string/mission_statement_main_scr"
                 android:gravity="bottom|center"
                 android:background="@color/transparent"
                 android:id="@+id/mission_statement"
@@ -76,7 +76,7 @@
                 android:layout_height="fill_parent"
                 android:onClick="onViewButtonClicked"
                 android:id="@+id/form_button_main"
-                android:text="Form"
+                android:text="@string/form_main_scr"
                 android:gravity="bottom|center"
                 android:background="@color/transparent"
                 android:layout_marginBottom="10dp"/>
@@ -110,7 +110,7 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="fill_parent"
-                android:text="External Links"
+                android:text="@string/external_links_main_scr"
                 android:gravity="bottom|center"
                 android:background="@color/transparent"
                 android:id="@+id/external_links"
@@ -137,7 +137,7 @@
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="fill_parent"
-                android:text="About"
+                android:text="@string/about_manin_scr"
                 android:gravity="bottom|center"
                 android:background="@color/transparent"
                 android:id="@+id/about_button"

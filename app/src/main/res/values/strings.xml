@@ -34,7 +34,7 @@ Working constructively with others in the penal system\n
 
 
     <string name="calculator_link">Click To Calculate </string>
-    <string name="app_name">PrisonApp</string>
+    <string name="app_name">Spent Conviction Calculator</string>
     <string name="dob">Were you a minor when the last crime was committed?</string>
     <string name="conviction_date">Date of the last conviction</string>
     <string name="offense_catagory">Category of Offense</string>
@@ -90,6 +90,14 @@ Working constructively with others in the penal system\n
     <string name="charity4"><a href="http://www.bridge.ie">www.bridge.ie</a></string>
     <string name="charity4Phone">018 78 0901</string>
 
+    <!--Tomas strings-->
+    <string name="mission_statement_main_scr">Mission Statement</string>
+    <string name="form_main_scr">Form</string>
+    <string name="external_links_main_scr">External Links</string>
+    <string name="about_manin_scr">About</string>
+
+    
+
 
     //josh strings
     <string name="about_iprt">About IPRT:</string>
@@ -105,7 +113,7 @@ Working constructively with others in the penal system\n
     <string name="about_vert_four">We publish a wide range of policy positions and research documents; we campaign vigorously across a wide range of penal policy issues; and we are committed to working with other agencies in the criminal justice system to achieve penal reform.</string>
 
     <string name="about_vert_five">We believe that penal reform is necessary, urgent and achievable.</string>
-    
+
     <string name="donate_button">Donate to IPRT</string>
 
     <string name="app_info_button">App Info</string>
