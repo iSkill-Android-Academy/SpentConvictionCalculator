@@ -20,12 +20,12 @@ public class MissionStatementActivity extends AppCompatActivity {
 
     public void onExternalLinksActivity(View view) {
         Intent intent = new Intent(this, ExternalLinksActivity.class);
-        HomeScreen.createDialogIntent(this, intent);
+        startActivity(intent);
     }
 
     public void onAboutClick(View view) {
         Intent intent = new Intent(this, AboutActivity.class);
-        HomeScreen.createDialogIntent(this, intent);
+        startActivity(intent);
     }
 
 

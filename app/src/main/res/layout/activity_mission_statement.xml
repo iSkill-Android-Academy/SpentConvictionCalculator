@@ -83,18 +83,6 @@
             android:textColor="@color/black"
             android:text="@string/about_instructions_page_button"/>
     </LinearLayout>
-    <TextView
-        android:text="Instruction"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-    <Button
-        android:onClick="FormActivity"
-        android:background="@drawable/button_red_square"
-        android:text="@string/calculator_link"
-        android:layout_width="match_parent"
-        android:textColor="@color/white"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
-        android:layout_height="70dp" />
+
 </LinearLayout>
     </ScrollView>
