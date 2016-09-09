@@ -62,7 +62,7 @@ public class FormActivity extends AppCompatActivity {
 
     }
 
-    public java.util.Date getDateFromDatePicker() {
+    public java.util.Date getDateFromDatePicker() {  //method to get the day date and month from the conviction date date picker element
         int day = mConvictionDate.getDayOfMonth();
         int month = mConvictionDate.getMonth();
         int year = mConvictionDate.getYear();
@@ -77,13 +77,13 @@ public class FormActivity extends AppCompatActivity {
     public void calculationLogic() {
 
 
-        Date convictionDate = getDateFromDatePicker();
+        Date convictionDate = getDateFromDatePicker();  //gets date of conviction from the conviction date picker
 
 
-        long difference = System.currentTimeMillis() - convictionDate.getTime();
+        long difference = System.currentTimeMillis() - convictionDate.getTime(); //gets the difference between conviction date and system date and returns a long of milliseconds
 
 
-        //}
+
         if (mOffenseSpinner.getSelectedItem().toString().equals("Sexual offense") ||
                 mOffenseSpinner.getSelectedItem().toString().equals("Murder") ||
                 mOffenseSpinner.getSelectedItem().toString().equals("Dangerous Driving") ||
@@ -117,21 +117,18 @@ public class FormActivity extends AppCompatActivity {
                     "\nMust always declare convictions when there are two or more.";
         } else if (mDOB.isChecked()) {
 
-
             if (difference > 94670778000l) {
                 if (mOffenseSpinner.getSelectedItem().toString().equals("Assault") &&
                         Integer.parseInt(mNumOffense.getText().toString()) == 1) {
 
                     resultsLogic = "Do Not Have To Declare Convictions \n\nYou not have to declare a single Assault conviction after 3 years (for a minor), however must it be declared during the Garda vetting process.";
 
-                }
-
-                else if (mOffenseSpinner.getSelectedItem().toString().equals("Insurance Fraud") &&
+                }else if (mOffenseSpinner.getSelectedItem().toString().equals("Insurance Fraud") &&
                         Integer.parseInt(mNumOffense.getText().toString()) == 1) {
 
                     resultsLogic = "Do Not Have To Declare Convictions \n" +
                             "\nYou not have to declare a single Insurance Fraud conviction after 3 years (for a minor), however it must be declared on insurance policies.";
-                } else {
+                }else {
                     resultsLogic = "Do Not Have To Declare Convictions \n" +
                             "\nYou not have to declare the conviction, the 3 year limit (for a minor) has passed.";
                 }
@@ -141,7 +138,8 @@ public class FormActivity extends AppCompatActivity {
 
                 resultsLogic = "Must Declare Convictions \n\nYou must declare the conviction, the 3 year limit (for a minor) has not passed yet.";
             }
-        } else {
+        }else {
+
             if (difference > 220898482000l) {
                 if (mOffenseSpinner.getSelectedItem().toString().equals("Assault") &&
                         Integer.parseInt(mNumOffense.getText().toString()) == 1) {
@@ -149,17 +147,16 @@ public class FormActivity extends AppCompatActivity {
                     resultsLogic = "Do Not Have To Declare Convictions \n" +
                             "\nYou do not have to declare a single Assault conviction after 7 years (for an adult), however it must be declared during Garda vetting process.";
 
-                }
-                else if (mOffenseSpinner.getSelectedItem().toString().equals("Insurance Fraud") &&
+                }else if (mOffenseSpinner.getSelectedItem().toString().equals("Insurance Fraud") &&
                         Integer.parseInt(mNumOffense.getText().toString()) == 1) {
 
                     resultsLogic = "Do Not Have To Declare Convictions \n" +
                             "\nYou do not have to declare a single Insurance Fraud conviction after 7 years (for an adult), however it must be declared on insurance policies.";
-                } else {
+                }else {
                     resultsLogic = "Do Not Have To Declare Convictions \n" +
                             "\nYou do not have to declare the conviction, the 7 year limit (for an adult) has passed.";
                 }
-            } else {
+            }else {
 
 
                 resultsLogic = "Must Declare Convictions \n\nYou must declare the conviction, the 7 year limit (for an adult) has not passed yet.";
