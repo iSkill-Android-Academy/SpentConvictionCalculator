@@ -51,28 +51,28 @@ public class ExternalLinksActivity extends AppCompatActivity {
     }
 
     public void sendContact(View view){
-        String targetEmail = null;
+        String targetEmail[] = null;
         String mSubject = "Enquiry";
         String mMessage = "I am seeking advice....";
 
         switch(view.getId()){
             case R.id.email_charity_1 : {
-                targetEmail = "prichardson@iasio.ie";
+                targetEmail = new String[]{"prichardson@iasio.ie"};
                 break;
             }
 
             case R.id.email_charity_2 : {
-                targetEmail = "press@ucasadh.ie";
+                targetEmail = new String[]{"press@ucasadh.ie"};
                 break;
             }
 
             case R.id.email_charity_3 : {
-                targetEmail = "info@careafterprison.ie";
+                targetEmail = new String[]{"info@careafterprison.ie"};
                 break;
             }
 
             case R.id.email_charity_4 : {
-                targetEmail = "siobhan@bridge.ie";
+                targetEmail = new String[]{"siobhan@bridge.ie"};
                 break;
             }
         }

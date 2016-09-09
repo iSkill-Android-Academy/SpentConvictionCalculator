@@ -84,14 +84,14 @@ Working constructively with others in the penal system\n
 
 
     <!--Strings for external Links page-->
-    <string name="charity1"><a href="http://www.iasio.ie">www.iasio.ie</a></string>
+    <string name="charity1"><a href="http://www.iasio.ie">www.iasio.ie    </a></string>
     <string name="charity1Phone">01 866 2706</string>
 
-    <string name="charity2"><a href="http://www.ucasadh.ie">www.ucasadh.ie</a></string>
+    <string name="charity2"><a href="http://www.ucasadh.ie">www.ucasadh.ie   </a></string>
     <string name="charity2Phone">051 830 479</string>
 
     <string name="charity3"><a href="http://www.careafterprison.ie">www.careafterprison.ie</a></string>
-    <string name="charity3Phone">00 000 000</string>
+    <string name="charity3Phone">01 472 0973</string>
 
     <string name="charity4"><a href="http://www.bridge.ie">www.bridge.ie</a></string>
     <string name="charity4Phone">018 78 0901</string>
