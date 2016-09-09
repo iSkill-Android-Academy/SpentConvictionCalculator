@@ -32,7 +32,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
-            android:text="About: "
+            android:text="@string/about_iprt"
             android:textColor="@color/black"
             android:textStyle="bold|italic"
             android:textSize="16dp"/>
@@ -40,10 +40,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
             <ImageView
-
+                android:alpha="0.6"
                 android:layout_width="100dp"
                 android:layout_height="100dp"
-                android:src="@drawable/information_main"
+                android:src="@drawable/ic_about"
                 android:layout_marginRight="5dp"
                 />
             <TextView
@@ -52,7 +52,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textColor="@color/black"
-                android:text="The Irish Penal Reform Trust (IPRT) is Ireland's leading non-governmental organisation campaigning for the rights of people in prison and the progressive reform of Irish penal policy."/>
+                android:text="@string/about_vert_one"/>
         </LinearLayout>
 
         <TextView
@@ -63,15 +63,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="@color/black"
-            android:text="Established in 1994, IPRT has a well-established role as an independent voice in public debate on the Irish penal system."/>
-        <TextView
-            android:layout_marginBottom="10dp"
-            android:paddingLeft="10dp"
-            android:paddingRight="10dp"
-            android:textColor="@color/black"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="IPRT is committed to reducing imprisonment, respecting the rights of everyone in the penal system, and progressive reform of the penal system based on evidence-led policies. In operational terms this means our focus is on: the use of imprisonment, including sentencing; alternatives to custody and diversion; and the treatment of those in detention."/>
+            android:text="@string/about_vert_two"/>
 
         <TextView
             android:layout_marginBottom="10dp"
@@ -80,7 +72,16 @@
             android:textColor="@color/black"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="We publish a wide range of policy positions and research documents; we campaign vigorously across a wide range of penal policy issues; and we are committed to working with other agencies in the criminal justice system to achieve penal reform."/>
+            android:text="@string/about_vert_three"
+            />
+        <TextView
+            android:layout_marginBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/about_vert_four"/>
 
         <TextView
             android:layout_marginBottom="10dp"
@@ -89,27 +90,165 @@
             android:textColor="@color/black"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="We believe that penal reform is necessary, urgent and achievable."/>
-        <Button
+            android:text="@string/about_vert_five"/>
+
+        <TextView
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/black"
+            android:textStyle="bold|italic"
+            android:textSize="16dp"
+            android:text="@string/about_developers"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginBottom="20dp"
+            android:textColor="@color/black"
+            android:text="@string/app_written_by"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp">
+            <TextView
+                android:textSize="16dp"
+                android:textColor="@color/black"
+                android:layout_marginRight="80dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/credits_string"/>
+            <TextView
+                android:textColor="@color/black"
+                android:text="@string/adam_name"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
             android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="16dp"
+                android:textColor="@color/white"
+                android:layout_marginRight="80dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/credits_string"/>
+            <TextView
+                android:textColor="@color/black"
+                android:text="@string/christina_name"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="16dp"
+                android:textColor="@color/white"
+                android:layout_marginRight="80dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/credits_string"/>
+            <TextView
+                android:textColor="@color/black"
+                android:text="@string/eric_name"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="16dp"
+                android:textColor="@color/white"
+                android:layout_marginRight="80dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/credits_string"/>
+            <TextView
+                android:textColor="@color/black"
+                android:text="@string/gerard_name"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="16dp"
+                android:textColor="@color/white"
+                android:layout_marginRight="80dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/credits_string"/>
+            <TextView
+                android:textColor="@color/black"
+                android:text="@string/josh_name"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="16dp"
+                android:textColor="@color/white"
+                android:layout_marginRight="80dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/credits_string"/>
+            <TextView
+                android:textColor="@color/black"
+                android:text="@string/tomas_name"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <Button
             android:layout_width="match_parent"
             android:layout_height="70dp"
-            android:text="Donate to IPRT"
+            android:text="@string/donate_button"
             android:layout_marginBottom="15dp"
             android:background="@drawable/button_red_square"
             android:textColor="@color/white"
             android:onClick="onDonateClick"/>
 
         <Button
-            android:layout_marginRight="10dp"
-            android:layout_marginLeft="10dp"
             android:layout_width="match_parent"
             android:layout_height="70dp"
-            android:text="iSkill"
-
+            android:text="@string/iskill_button"
             android:background="@drawable/button_red_square"
             android:textColor="@color/white"
-            android:onClick="onIskillClick"/>
+            android:onClick="onIskillClick" />
+
     </LinearLayout>
 </ScrollView>

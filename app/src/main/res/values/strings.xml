@@ -34,7 +34,7 @@ Working constructively with others in the penal system\n
 
 
     <string name="calculator_link">Click To Calculate </string>
-    <string name="app_name">PrisonApp</string>
+    <string name="app_name">Spent Conviction Calculator</string>
     <string name="dob">Were you a minor when the last crime was committed?</string>
     <string name="conviction_date">Date of the last conviction</string>
     <string name="offense_catagory">Category of Offense</string>
@@ -48,7 +48,7 @@ Working constructively with others in the penal system\n
     <string name="yes">Yes</string>
     <string name="no">No</string>
     <string name="back">Back</string>
-    
+
     <array name="court_list_array">
         <item>District Court</item>
         <item>Circuit Court</item>
@@ -95,11 +95,58 @@ Working constructively with others in the penal system\n
     <string name="form_main_scr">Form</string>
     <string name="external_links_main_scr">External Links</string>
     <string name="about_manin_scr">About</string>
+
     <string name="alert_title"><u>Disclaimer</u></string>
     <string name="alert_message">Alert Message</string>
     <string name="alert_agree_option">Accept</string>
     <string name="alert_disagree_option">Decline</string>
     <string name="alert_disagree_toast">In order to proceede, you need to accept</string>
-    
-    
+
+
+
+
+    //josh strings
+    <string name="about_iprt">About IPRT:</string>
+
+    <string name="about_developers">About Developers:</string>
+
+    <string name="about_vert_one">The Irish Penal Reform Trust (IPRT) is Ireland\'s leading non-governmental organisation campaigning for the rights of people in prison and the progressive reform of Irish penal policy.</string>
+
+    <string name="about_vert_two">Established in 1994, IPRT has a well-established role as an independent voice in public debate on the Irish penal system.</string>
+
+    <string name="about_vert_three">IPRT is committed to reducing imprisonment, respecting the rights of everyone in the penal system, and progressive reform of the penal system based on evidence-led policies. In operational terms this means our focus is on: the use of imprisonment, including sentencing; alternatives to custody and diversion; and the treatment of those in detention.</string>
+
+    <string name="about_vert_four">We publish a wide range of policy positions and research documents; we campaign vigorously across a wide range of penal policy issues; and we are committed to working with other agencies in the criminal justice system to achieve penal reform.</string>
+
+    <string name="about_vert_five">We believe that penal reform is necessary, urgent and achievable.</string>
+
+    <string name="donate_button">Donate to IPRT</string>
+
+    <string name="app_info_button">App Info</string>
+
+    <string name="iskill_button">iSkill Training</string>
+
+    <string name="app_written_by">This App was written by iSkill students on behalf of the Irish Penal Reform Trust.</string>
+
+    <string name="about_land_one">The Irish Penal Reform Trust (IPRT) is Ireland\'s leading non-governmental organisation campaigning for the rights of people in prison and the progressive reform of Irish penal policy. \n\nEstablished in 1994, IPRT has a well-established role as an independent voice in public debate on the Irish penal system.</string>
+
+    <string name="about_land_two">IPRT is committed to reducing imprisonment, respecting the rights of everyone in the penal system, and progressive reform of the penal system based on evidence-led policies. In operational terms this means our focus is on: the use of imprisonment, including sentencing; alternatives to custody and diversion; and the treatment of those in detention.</string>
+
+    <string name="about_land_three">We publish a wide range of policy positions and research documents; we campaign vigorously across a wide range of penal policy issues; and we are committed to working with other agencies in the criminal justice system to achieve penal reform.</string>
+
+    <string name="about_land_four">We believe that penal reform is necessary, urgent and achievable.</string>
+
+    <string name="adam_name">Adam king</string>
+
+    <string name="christina_name">Christina Oluwaseun</string>
+
+    <string name="eric_name">Eric strong</string>
+
+    <string name="gerard_name">Gerard Keogh</string>
+
+    <string name="josh_name">Josh Carroll</string>
+
+    <string name="tomas_name">Tomas Gabor</string>
+
+    <string name="credits_string">Credits:</string>
 </resources>
