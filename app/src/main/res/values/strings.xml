@@ -104,9 +104,9 @@ Working constructively with others in the penal system\n
 
     <string name="alert_title"><u>Disclaimer</u></string>
     <string name="alert_message"><b>To proceed you must agree to the below disclaimer.</b>
-        \n\nThis information should only be used as a guide, it is not Legal advice.
-\nIf in doubt please contact a legal professional.
-\nIPRT is not responsible for any inaccuracy or changes in the law.</string>
+                                    \n\nThis information should only be used as a guide, it is not Legal advice.
+                                    \nIf in doubt please contact a legal professional.
+                                    \nIPRT is not responsible for any inaccuracy or changes in the law.</string>
     <string name="alert_agree_option">Accept</string>
     <string name="alert_disagree_option">Decline</string>
     <string name="alert_disagree_toast">In order to proceed, you need to accept</string>

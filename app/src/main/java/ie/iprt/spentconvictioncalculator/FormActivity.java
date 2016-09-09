@@ -94,24 +94,27 @@ public class FormActivity extends AppCompatActivity {
                 mPunishmentSpinner.getSelectedItem().toString().equals("Probation greater than 24 months")
                 ) {
 
-            resultsLogic = "For more serious crimes, sentences and convictions handed down by the higher courts you must always declare the conviction.";
+            resultsLogic = "Must Declare Convictions \n\nFor more serious crimes, sentences and convictions handed down by the higher courts you must always declare the conviction.";
 
 
         } else if (mOffenseSpinner.getSelectedItem().toString().equals("Assault") &&
                 Integer.parseInt(mNumOffense.getText().toString()) > 1) {
 
-            resultsLogic = "You must always declare multiple assault convictions.";
+            resultsLogic = "Must Declare Convictions \n" +
+                    "\nYou must always declare multiple assault convictions.";
 
 
         } else if (mOffenseSpinner.getSelectedItem().toString().equals("Insurance Fraud") &&
                 Integer.parseInt(mNumOffense.getText().toString()) > 1) {
 
 
-            resultsLogic = "You must always declare multiple insurance fraud convictions, including when applying for insurance";
+            resultsLogic = "Must Declare Convictions \n" +
+                    "\nYou must always declare multiple insurance fraud convictions, including when applying for insurance";
         } else if (mOffenseSpinner.getSelectedItem().toString().equals("All Other Offenses") &&
                 Integer.parseInt(mNumOffense.getText().toString()) > 1) {
 
-            resultsLogic = "Must always declare convictions when there are two or more.";
+            resultsLogic = "Must Declare Convictions \n" +
+                    "\nMust always declare convictions when there are two or more.";
         } else if (mDOB.isChecked()) {
 
 
@@ -119,42 +122,47 @@ public class FormActivity extends AppCompatActivity {
                 if (mOffenseSpinner.getSelectedItem().toString().equals("Assault") &&
                         Integer.parseInt(mNumOffense.getText().toString()) == 1) {
 
-                    resultsLogic = "You not have to declare a single Assault conviction after 3 years in general, however must it be declared during the Garda vetting process.";
+                    resultsLogic = "Do Not Have To Declare Convictions \n\nYou not have to declare a single Assault conviction after 3 years in general, however must it be declared during the Garda vetting process.";
 
                 }
 
                 else if (mOffenseSpinner.getSelectedItem().toString().equals("Insurance Fraud") &&
                         Integer.parseInt(mNumOffense.getText().toString()) == 1) {
 
-                    resultsLogic = "You not have to declare a single Insurance Fraud conviction after 3 years in general, however it must be declared on insurance policies.";
+                    resultsLogic = "Do Not Have To Declare Convictions \n" +
+                            "\nYou not have to declare a single Insurance Fraud conviction after 3 years in general, however it must be declared on insurance policies.";
                 } else {
-                    resultsLogic = "You not have to declare the conviction, the 3 year limit has passed.";
+                    resultsLogic = "Do Not Have To Declare Convictions \n" +
+                            "\nYou not have to declare the conviction, the 3 year limit has passed.";
                 }
 
             } else {
 
 
-                resultsLogic = "You must declare the conviction, the 3 year limit has not passed yet.";
+                resultsLogic = "Must Declare Convictions \n\nYou must declare the conviction, the 3 year limit has not passed yet.";
             }
         } else {
             if (difference > 220898482000l) {
                 if (mOffenseSpinner.getSelectedItem().toString().equals("Assault") &&
                         Integer.parseInt(mNumOffense.getText().toString()) == 1) {
 
-                    resultsLogic = "You do not have to declare a single Assault conviction after 7 years in general, however it must be declared during Garda vetting process.";
+                    resultsLogic = "Do Not Have To Declare Convictions \n" +
+                            "\nYou do not have to declare a single Assault conviction after 7 years in general, however it must be declared during Garda vetting process.";
 
                 }
                 else if (mOffenseSpinner.getSelectedItem().toString().equals("Insurance Fraud") &&
                         Integer.parseInt(mNumOffense.getText().toString()) == 1) {
 
-                    resultsLogic = "You do not have to declare a single Insurance Fraud conviction after 7 years in general, however it must be declared on insurance policies.";
+                    resultsLogic = "Do Not Have To Declare Convictions \n" +
+                            "\nYou do not have to declare a single Insurance Fraud conviction after 7 years in general, however it must be declared on insurance policies.";
                 } else {
-                    resultsLogic = "You do not have to declare the conviction, the 7 year limit has passed.";
+                    resultsLogic = "Do Not Have To Declare Convictions \n" +
+                            "\nYou do not have to declare the conviction, the 7 year limit has passed.";
                 }
             } else {
 
 
-                resultsLogic = "You must declare the conviction, the 7 year limit has not passed yet.";
+                resultsLogic = "Must Declare Convictions \n\nYou must declare the conviction, the 7 year limit has not passed yet.";
             }
         }
     }
