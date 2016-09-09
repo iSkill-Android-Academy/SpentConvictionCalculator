@@ -95,6 +95,11 @@ Working constructively with others in the penal system\n
     <string name="form_main_scr">Form</string>
     <string name="external_links_main_scr">External Links</string>
     <string name="about_manin_scr">About</string>
+    <string name="alert_title"><u>Disclaimer</u></string>
+    <string name="alert_message">Alert Message</string>
+    <string name="alert_agree_option">Accept</string>
+    <string name="alert_disagree_option">Decline</string>
+    <string name="alert_disagree_toast">In order to proceede, you need to accept</string>
     
     
 </resources>
