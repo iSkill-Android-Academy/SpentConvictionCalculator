@@ -15,8 +15,22 @@ public class MissionStatementActivity extends AppCompatActivity {
 
     public void FormActivity (View view){
         Intent intent = new Intent(this,FormActivity.class);
-        startActivity(intent);
+        HomeScreen.createDialogIntent(this, intent);
     }
+
+    public void onExternalLinksActivity(View view) {
+        Intent intent = new Intent(this, ExternalLinksActivity.class);
+        HomeScreen.createDialogIntent(this, intent);
+    }
+
+    public void onAboutClick(View view) {
+        Intent intent = new Intent(this, AboutActivity.class);
+        HomeScreen.createDialogIntent(this, intent);
+    }
+
+
+
+
 
 
 }
