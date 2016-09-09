@@ -19,10 +19,13 @@
     tools:context="ie.iprt.spentconvictioncalculator.MissionStatementActivity">
 
     <ImageView
-        android:src="@drawable/iprt_white_logo_land"
-        android:adjustViewBounds="true"
         android:layout_width="match_parent"
-        android:layout_height="220sp" />
+        android:layout_height="wrap_content"
+        android:src="@drawable/home_screen_main_logo"
+        android:adjustViewBounds="true"
+        android:paddingTop="15dp"
+        android:paddingBottom="25dp"
+        />
 
     <TextView
         android:text="@string/mission_statement"

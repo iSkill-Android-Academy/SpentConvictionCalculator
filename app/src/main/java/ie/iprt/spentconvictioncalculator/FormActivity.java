@@ -154,7 +154,7 @@ public class FormActivity extends AppCompatActivity {
             } else {
 
 
-                resultsLogic = "You must declare the conviction, the 7 year limit has not passed yet";
+                resultsLogic = "You must declare the conviction, the 7 year limit has not passed yet.";
             }
         }
     }
