@@ -89,6 +89,12 @@ Working constructively with others in the penal system\n
 
     <string name="charity4"><a href="http://www.bridge.ie">www.bridge.ie</a></string>
     <string name="charity4Phone">018 78 0901</string>
+
+    <!--Tomas strings-->
+    <string name="mission_statement_main_scr">Mission Statement</string>
+    <string name="form_main_scr">Form</string>
+    <string name="external_links_main_scr">External Links</string>
+    <string name="about_manin_scr">About</string>
     
     
 </resources>
