@@ -234,8 +234,6 @@
         </LinearLayout>
 
         <Button
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp"
             android:layout_width="match_parent"
             android:layout_height="70dp"
             android:text="@string/donate_button"
@@ -245,8 +243,6 @@
             android:onClick="onDonateClick"/>
 
         <Button
-            android:layout_marginRight="10dp"
-            android:layout_marginLeft="10dp"
             android:layout_width="match_parent"
             android:layout_height="70dp"
             android:text="@string/iskill_button"
