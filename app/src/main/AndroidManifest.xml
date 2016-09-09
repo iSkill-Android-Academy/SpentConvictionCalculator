@@ -15,12 +15,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".FormActivity"
-            android:windowSoftInputMode="stateHidden"/>
+        <activity
+            android:name=".FormActivity"
+            android:windowSoftInputMode="stateHidden" />
         <activity android:name=".AboutActivity" />
         <activity android:name=".MissionStatementActivity" />
         <activity android:name=".ResultsActivity" />
-        <activity android:name=".ExternalLinksActivity"></activity>
+        <activity android:name=".ExternalLinksActivity" />
     </application>
 
 </manifest>
