@@ -31,6 +31,12 @@ Working constructively with others in the penal system\n
     Governance and Best Practice\n
 
 </string>
+    
+    <string name="instructions_title"><u><b>Instructions</b></u></string>
+
+    <string name="form_instructions_page_button"><u><b>Form: </b></u> The questionnaire page is designed to help you calculate your convictions and guide you on which step to take next</string>
+    <string name="external_links_instructions_page_button"><u><b>External Links: </b></u>Helpful informative Links to various websites that might be useful to our Users.</string>
+    <string name="about_instructions_page_button"><u><b>About: </b></u>This is an informative page about IPRT and their Mission statement and objectives\n  Users can also find information on the team that created this APP</string>
 
 
     <string name="calculator_link">Click To Calculate </string>
