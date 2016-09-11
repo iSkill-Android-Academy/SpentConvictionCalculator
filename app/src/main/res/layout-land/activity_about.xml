@@ -34,7 +34,8 @@
             android:text="@string/about_iprt"
             android:textColor="@color/black"
             android:textStyle="bold|italic"
-            android:textSize="16dp"/>
+            android:textSize="16dp"
+            android:id="@+id/about_text_id_font"/>
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
@@ -101,6 +102,7 @@
             android:textColor="@color/black"
             android:textStyle="bold|italic"
             android:textSize="16dp"
+            android:id="@+id/about_developers_id_font"
             android:text="@string/about_developers"/>
 
         <TextView
@@ -250,7 +252,8 @@
             android:textColor="@color/black"
             android:textStyle="bold|italic"
             android:textSize="16dp"
-            android:text="@string/about_iskill"/>
+            android:text="@string/about_iskill"
+            android:id="@+id/about_iskill_id_font"/>
 
         <TextView
             android:paddingLeft="10dp"
