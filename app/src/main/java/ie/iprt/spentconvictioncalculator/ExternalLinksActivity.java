@@ -1,8 +1,11 @@
 package ie.iprt.spentconvictioncalculator;
 
 import android.content.ActivityNotFoundException;
+import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.net.Uri;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.Html;
@@ -101,4 +104,87 @@ public class ExternalLinksActivity extends AppCompatActivity {
         Intent intent = new Intent(this, MissionStatementActivity.class);
         startActivity(intent);
     }
+
+    public void FormActivity1 (View view){
+        Intent intent = new Intent(this,ExternalLinksActivity.class);
+        createDialogIntent(this, intent);
+    }
+
+    public void FormActivity2 (View view){
+        Intent intent = new Intent(this,ExternalLinksActivity.class);
+        createDialogIntent2(this, intent);
+    }
+
+    public void FormActivity3 (View view){
+        Intent intent = new Intent(this,ExternalLinksActivity.class);
+        createDialogIntent3(this, intent);
+    }
+
+    public void FormActivity4 (View view){
+        Intent intent = new Intent(this,ExternalLinksActivity.class);
+        createDialogIntent4(this, intent);
+    }
+
+
+    //for additional info on the charities
+    public static void createDialogIntent(final Context context, final Intent intent) {
+        new AlertDialog.Builder(context).setTitle(R.string.alert_title1)
+                .setMessage(R.string.alert_message1)
+                .setIcon(R.drawable.ic_external_links)
+                .setPositiveButton(R.string.alert_disagree_option1, new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        //this is what happens when Accept is clicked
+                        //context.startActivity(intent);
+                    }
+                }).show();
+
+    }
+
+    //for additional info on the charities
+    public static void createDialogIntent2(final Context context, final Intent intent) {
+        new AlertDialog.Builder(context).setTitle(R.string.alert_title2)
+                .setMessage(R.string.alert_message2)
+                .setIcon(R.drawable.ic_external_links)
+                .setPositiveButton(R.string.alert_disagree_option1, new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        //this is what happens when Accept is clicked
+                        //context.startActivity(intent);
+                    }
+                }).show();
+
+    }
+
+
+    //for additional info on the charities
+    public static void createDialogIntent3(final Context context, final Intent intent) {
+        new AlertDialog.Builder(context).setTitle(R.string.alert_title3)
+                .setMessage(R.string.alert_message3)
+                .setIcon(R.drawable.ic_external_links)
+                .setPositiveButton(R.string.alert_disagree_option1, new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        //this is what happens when Accept is clicked
+                        //context.startActivity(intent);
+                    }
+                }).show();
+
+    }
+
+    //for additional info on the charities
+    public static void createDialogIntent4(final Context context, final Intent intent) {
+        new AlertDialog.Builder(context).setTitle(R.string.alert_title4)
+                .setMessage(R.string.alert_message4)
+                .setIcon(R.drawable.ic_external_links)
+                .setPositiveButton(R.string.alert_disagree_option1, new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        //this is what happens when Accept is clicked
+                        //context.startActivity(intent);
+                    }
+                }).show();
+
+    }
+
 }
