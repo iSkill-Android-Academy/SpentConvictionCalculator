@@ -1,7 +1,7 @@
 <resources>
     <string name="instructions_title"><u><b>Instructions</b></u></string>
 
-    <string name="form_instructions_page_button"><u><b>Form: </b></u> Questionnaire page is designed to help you calculate your convictions and guide you on which step to take next.</string>
+    <string name="form_instructions_page_button"><u><b>Form: </b></u>Questionnaire page is designed to help you calculate your convictions and guide you on which step to take next.</string>
     <string name="external_links_instructions_page_button"><u><b>External Links: </b></u>Helpful links to various websites that might be useful.</string>
     <string name="about_instructions_page_button"><u><b>About: </b></u>An informative page about IPRT, their mission statement and objectives.\nAs well as information on the team which created this App.</string>
 
@@ -65,36 +65,36 @@
 
     <!--for the external links pop ups-->
     <string name="alert_title1"><u>\tCare After Prison</u></string>
-    <string name="alert_message1">\n<b>website:</b>www.careafterprison.ie
-                                    \n<b>email:</b>info@careafterprison.ie
-                                    \n<b>phone:</b>01 4720973
+    <string name="alert_message1">\n<b>Website:</b> www.careafterprison.ie
+                                    \n<b>Email:</b> info@careafterprison.ie
+                                    \n<b>Phone:</b> 01 4720973
                                     \n\nCare After Prison is a peer led charity organisation which provides
-                                    \nInformation, support and referral for ex-offenders their families and
-                                    \nvictims of crime</string>
+                                    \ninformation, support and referral for ex-offenders their families and
+                                    \nvictims of crime.</string>
 
     <string name="alert_title2"><u>\tThe U-Casadh Project</u></string>
-    <string name="alert_message2">\n<b>website:</b>www.ucasadh.ie
-                                    \n<b>email:</b>press@ucasadh.ie
-                                    \n<b>phone:</b>051 830479
+    <string name="alert_message2">\n<b>Website:</b> www.ucasadh.ie
+                                    \n<b>Email:</b> press@ucasadh.ie
+                                    \n<b>Phone:</b> 051 830479
                                     \n\nWe are a social inclusion project and registered charity
-        \nbased on the border of Waterford and Kilkenny.  Our
+        \nbased on the border of Waterford and Kilkenny. Our
         \nmission is to be a catalyst for change in attitudes to crime,
         \nsocial exclusion, rehabilitation and justice.</string>
 
     <string name="alert_title3"><u>\tBridge</u></string>
-    <string name="alert_message3">\n<b>website:</b>www.bridge.ie
-                                    \n<b>email:</b>siobhan@bridge.ie
-                                    \n<b>phone:</b>01 8780901
+    <string name="alert_message3">\n<b>Website:</b> www.bridge.ie
+                                    \n<b>Email:</b> siobhan@bridge.ie
+                                    \n<b>Phone:</b> 01 8780901
                                     \n\nThere are a number of exciting developments taking place for Bridge in 2015
         \nwith one of them being the launch of our new website.
         \nWe expect it to be up and running by the end of February so check back then to find out what we do.</string>
 
     <string name="alert_title4"><u>\tIrish Association for the Social Integration of Offenders</u></string>
-    <string name="alert_message4">\n<b>website:</b>www.iasio.ie
-                                    \n<b>email:</b>prichardson@iasio.ie
-                                    \n<b>phone:</b>01 8662706
+    <string name="alert_message4">\n<b>Website:</b> www.iasio.ie
+                                    \n<b>Email:</b> prichardson@iasio.ie
+                                    \n<b>Phone:</b> 01 8662706
                                     \n\nAs a large community based organisation with a national remit IASIO works
-        \n with adult offenders in the criminal justice system with a specific focus on alternatives to offending,
+        \nwith adult offenders in the criminal justice system with a specific focus on alternatives to offending,
         \ncustody and re-imprisonment. This is achieved through the provision of direct
         \nservices to offenders both in the community and in all Irish prisons.</string>
 
