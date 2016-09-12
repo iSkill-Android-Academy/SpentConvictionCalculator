@@ -144,7 +144,7 @@
             android:onClick="onSubmitButtonClicked"
             android:background="@drawable/button_red_square"
             android:textColor="@color/white"
-            android:text="@string/submit"
+            android:text="@string/calculate"
             />
 
 

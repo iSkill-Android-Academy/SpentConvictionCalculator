@@ -1,7 +1,7 @@
 <resources>
     <string name="instructions_title"><u><b>Instructions</b></u></string>
 
-    <string name="form_instructions_page_button"><u><b>Form: </b></u>Questionnaire page is designed to help you calculate your convictions and guide you on which step to take next.</string>
+    <string name="form_instructions_page_button"><u><b>Form: </b></u>Questionnaire page is designed to help you calculate your spent convictions and advise you on your legal responsibilities.</string>
     <string name="external_links_instructions_page_button"><u><b>External Links: </b></u>Helpful links to various websites that might be useful.</string>
     <string name="about_instructions_page_button"><u><b>About: </b></u>An informative page about IPRT, their mission statement and objectives.\nAs well as information on the team which created this App.</string>
 
@@ -12,15 +12,14 @@
     <string name="conviction_date">Date of the last conviction</string>
     <string name="offense_catagory">Category of Offense</string>
     <string name="which_court">Which Court?</string>
-    <string name="no_of_convictions">Number of Convictions?</string>
+    <string name="no_of_convictions">Number of Convictions</string>
     <string name="no_of_convictions_hint">enter number of convictions here</string>
-    <string name="suspended">Suspended Sentence?</string>
-    <string name="not_suspended">Not Suspended?</string>
-    <string name="punishment_recieved">Punishment Received?</string>
+    <string name="punishment_recieved">Punishment Received</string>
     <string name="submit">submit</string>
     <string name="yes">Yes</string>
     <string name="no">No</string>
     <string name="back">Back</string>
+    <string name="calculate">Calculate</string>
 
     <array name="court_list_array">
         <item>District Court</item>
@@ -113,7 +112,7 @@
     <string name="alert_message"><b>To proceed you must agree to the below disclaimer.</b>
                                     \n\nThis information should only be used as a guide, it is not legal advice.
                                     \nIf in doubt please contact a legal professional.
-                                    \nIPRT is not responsible for any inaccuracy or changes in the law.</string>
+                                    \nIPRT is not responsible for any inaccurate results or future changes in the law.</string>
     <string name="alert_agree_option">Accept</string>
     <string name="alert_disagree_option">Decline</string>
     <string name="alert_disagree_toast">In order to proceed, you need to accept</string>
