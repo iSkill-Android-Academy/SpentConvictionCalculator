@@ -8,12 +8,12 @@
 
     <string name="calculator_link">Click To Calculate </string>
     <string name="app_name">SpentConviction</string>
-    <string name="dob">Were you a minor when the last crime was committed?</string>
-    <string name="conviction_date">Date of the last conviction</string>
-    <string name="offense_catagory">Category of Offense</string>
+    <string name="dob">Were you a minor (aged under 18) when you committed the offence(s)?</string>
+    <string name="conviction_date">Date of your most recent conviction</string>
+    <string name="offense_catagory">Category of Offence</string>
     <string name="which_court">Which Court?</string>
     <string name="no_of_convictions">Number of Convictions</string>
-    <string name="no_of_convictions_hint">enter number of convictions here</string>
+    <string name="no_of_convictions_hint">Enter number of convictions here</string>
     <string name="punishment_recieved">Punishment Received</string>
     <string name="submit">submit</string>
     <string name="yes">Yes</string>
@@ -29,22 +29,25 @@
     </array>
 
     <array name="offense_array">
-        <item>Public order offense</item>
-        <item>Sexual offense</item>
-        <item>Insurance Fraud</item>
-        <item>Murder</item>
-        <item>Assault</item>
+
+        <item>Minor Motoring Offence</item>
         <item>Dangerous Driving</item>
-        <item>Other Motoring Offense</item>
-        <item>All Other Offenses</item>
+        <item>Insurance Fraud</item>
+        <item>Public order offence</item>
+        <item>Assault</item>
+        <item>Sexual offence</item>
+        <item>Homicide</item>
+        <item>All Other Offences</item>
+
+
+
     </array>
 
     <array name="punishment_array">
-        <item>None</item>
-        <item>Prison greater than 12 months</item>
-        <item>Suspended sentence greater than 24 months</item>
-        <item>Probation greater than 24 months</item>
-        <item>Other</item>
+        <item>Conditional discharge</item>
+        <item>Prison sentence longer than 12 months</item>
+        <item>Suspended sentence of more than 24 months</item>
+        <item>Other (e.g. fine, community service, etc.)</item>
 
     </array>
 

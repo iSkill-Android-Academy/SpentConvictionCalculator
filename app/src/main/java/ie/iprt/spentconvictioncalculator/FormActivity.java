@@ -85,22 +85,22 @@ public class FormActivity extends AppCompatActivity {
 
 
         if (mOffenseSpinner.getSelectedItem().toString().equals("Sexual offense") ||
-                mOffenseSpinner.getSelectedItem().toString().equals("Murder") ||
+                mOffenseSpinner.getSelectedItem().toString().equals("Homicide") ||
                 mOffenseSpinner.getSelectedItem().toString().equals("Dangerous Driving") ||
                 mCourtSpinner.getSelectedItem().toString().equals("Central Criminal Court") ||
                 mCourtSpinner.getSelectedItem().toString().equals("Special Criminal Court") ||
-                mPunishmentSpinner.getSelectedItem().toString().equals("Prison greater than 12 months") ||
-                mPunishmentSpinner.getSelectedItem().toString().equals("Suspended sentence greater than 24 months") ||
-                mPunishmentSpinner.getSelectedItem().toString().equals("Probation greater than 24 months")
+                mPunishmentSpinner.getSelectedItem().toString().equals("Prison sentence longer than 12 months") ||
+                mPunishmentSpinner.getSelectedItem().toString().equals("Suspended sentence of more than 24 months")
+
                 ) {
 
-            resultsLogic = "Must Declare Convictions \n\nFor more serious crimes, sentences and convictions handed down by the higher courts you must always declare the conviction.";
+            resultsLogic = "Must Declare Conviction(s) \n\nFor more serious crimes, sentences and convictions handed down by the higher courts you must always declare the conviction.";
 
 
         } else if (mOffenseSpinner.getSelectedItem().toString().equals("Assault") &&
                 Integer.parseInt(mNumOffense.getText().toString()) > 1) {
 
-            resultsLogic = "Must Declare Convictions \n" +
+            resultsLogic = "Must Declare Conviction(s) \n" +
                     "\nYou must always declare multiple assault convictions.";
 
 
@@ -121,22 +121,22 @@ public class FormActivity extends AppCompatActivity {
                 if (mOffenseSpinner.getSelectedItem().toString().equals("Assault") &&
                         Integer.parseInt(mNumOffense.getText().toString()) == 1) {
 
-                    resultsLogic = "Do Not Have To Declare Convictions \n\nYou not have to declare a single Assault conviction after 3 years (for a minor), however must it be declared during the Garda vetting process.";
+                    resultsLogic = "Your conviction is spent. \n\nYou not have to declare a single Assault conviction after 3 years (for a minor), however must it be declared during the Garda vetting process.";
 
                 }else if (mOffenseSpinner.getSelectedItem().toString().equals("Insurance Fraud") &&
                         Integer.parseInt(mNumOffense.getText().toString()) == 1) {
 
-                    resultsLogic = "Do Not Have To Declare Convictions \n" +
-                            "\nYou not have to declare a single Insurance Fraud conviction after 3 years (for a minor), however it must be declared on insurance policies.";
+                    resultsLogic = "Your conviction is spent in most circumstances. \n" +
+                            "\nHowever, it must continue to be declared on insurance policies.";
                 }else {
-                    resultsLogic = "Do Not Have To Declare Convictions \n" +
-                            "\nYou not have to declare the conviction, the 3 year limit (for a minor) has passed.";
+                    resultsLogic = "Your conviction is spent. \n" +
+                            "\nIf asked, you no longer have to declare the conviction as the 3 year period for a minor has passed.";
                 }
 
             } else {
 
 
-                resultsLogic = "Must Declare Convictions \n\nYou must declare the conviction, the 3 year limit (for a minor) has not passed yet.";
+                resultsLogic = " Your conviction(s) is not spent. \n\nIf asked, you still have to declare the conviction as the 3 year period for a minor has not passed.";
             }
         }else {
 
@@ -144,22 +144,22 @@ public class FormActivity extends AppCompatActivity {
                 if (mOffenseSpinner.getSelectedItem().toString().equals("Assault") &&
                         Integer.parseInt(mNumOffense.getText().toString()) == 1) {
 
-                    resultsLogic = "Do Not Have To Declare Convictions \n" +
+                    resultsLogic = "Your conviction is spent. \n" +
                             "\nYou do not have to declare a single Assault conviction after 7 years (for an adult), however it must be declared during Garda vetting process.";
 
                 }else if (mOffenseSpinner.getSelectedItem().toString().equals("Insurance Fraud") &&
                         Integer.parseInt(mNumOffense.getText().toString()) == 1) {
 
-                    resultsLogic = "Do Not Have To Declare Convictions \n" +
-                            "\nYou do not have to declare a single Insurance Fraud conviction after 7 years (for an adult), however it must be declared on insurance policies.";
+                    resultsLogic = "Your conviction is spent in most circumstances. \n" +
+                            "\nHowever, it must continue to be declared on insurance policies.";
                 }else {
-                    resultsLogic = "Do Not Have To Declare Convictions \n" +
-                            "\nYou do not have to declare the conviction, the 7 year limit (for an adult) has passed.";
+                    resultsLogic = "Your conviction is spent. \n" +
+                            "\nIf asked, you no longer have to declare the conviction as the 7 year period for an adult has passed.";
                 }
             }else {
 
 
-                resultsLogic = "Must Declare Convictions \n\nYou must declare the conviction, the 7 year limit (for an adult) has not passed yet.";
+                resultsLogic = "Your conviction(s) is not spent. \n\nIf asked, you still have to declare the conviction as the 7 year period for an adult has passed.";
             }
         }
     }
