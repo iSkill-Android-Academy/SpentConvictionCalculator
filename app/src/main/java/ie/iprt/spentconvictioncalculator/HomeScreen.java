@@ -9,6 +9,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 import android.widget.Toast;
 
 public class HomeScreen extends AppCompatActivity {
@@ -17,6 +18,7 @@ public class HomeScreen extends AppCompatActivity {
     private Button mForm;
     private Button mExternalLinks;
     private Button mAbout;
+    private TextView mSubtitle;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,6 +34,8 @@ public class HomeScreen extends AppCompatActivity {
         mExternalLinks.setTypeface(tf);
         mAbout = (Button) findViewById(R.id.about_button);
         mAbout.setTypeface(tf);
+        mSubtitle =(TextView) findViewById(R.id.subtitle);
+        mSubtitle.setTypeface(tf);
 
     }
 

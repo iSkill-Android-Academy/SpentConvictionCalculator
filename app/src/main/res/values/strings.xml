@@ -1,9 +1,9 @@
 <resources>
-    <string name="instructions_title"><u><b>Instructions</b></u></string>
+    <string name="instructions_title"><u><b>How to Use</b></u></string>
 
-    <string name="form_instructions_page_button"><u><b>Form: </b></u>Questionnaire page is designed to help you calculate your spent convictions and advise you on your legal responsibilities.</string>
-    <string name="external_links_instructions_page_button"><u><b>External Links: </b></u>Helpful links to various websites that might be useful.</string>
-    <string name="about_instructions_page_button"><u><b>About: </b></u>An informative page about IPRT, their mission statement and objectives.\nAs well as information on the team which created this App.</string>
+    <string name="form_instructions_page_button"><u><b>Calculate: </b></u>Questionnaire page is designed to help you calculate whether your convictions are spent, and guide you on next step.</string>
+    <string name="external_links_instructions_page_button"><u><b>Who can help: </b></u>Links to organisations that help and support people who have more serious criminal records.</string>
+    <string name="about_instructions_page_button"><u><b>About: </b></u>More information about IPRT, our mission statement and objectives.\nAs well as information about iSkills and the team that developed this App.</string>
 
 
     <string name="calculator_link">Click To Calculate </string>
@@ -106,9 +106,9 @@
 
 
     <!--Tomas strings-->
-    <string name="mission_statement_main_scr">Instructions</string>
-    <string name="form_main_scr">Form</string>
-    <string name="external_links_main_scr">External Links</string>
+    <string name="mission_statement_main_scr">How to Use</string>
+    <string name="form_main_scr">Calculate</string>
+    <string name="external_links_main_scr">Who can help</string>
     <string name="about_manin_scr">About</string>
 
     <string name="alert_title"><u>Disclaimer</u></string>
@@ -119,6 +119,7 @@
     <string name="alert_agree_option">Accept</string>
     <string name="alert_disagree_option">Decline</string>
     <string name="alert_disagree_toast">In order to proceed, you need to accept</string>
+    <string name="subtitle">Are my convictions spent?</string>
 
 
 
