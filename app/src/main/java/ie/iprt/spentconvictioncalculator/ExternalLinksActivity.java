@@ -53,6 +53,16 @@ public class ExternalLinksActivity extends AppCompatActivity {
 
     }
 
+    public void oncharity5Click(View View){
+        goToUrl("http://www.justice.ie");
+
+    }
+
+    public void oncharity6Click(View View){
+        goToUrl("http://www.citizensinformation.ie");
+
+    }
+
     public void sendContact(View view){
         String targetEmail[] = null;
         String mSubject = "Enquiry";
@@ -76,6 +86,16 @@ public class ExternalLinksActivity extends AppCompatActivity {
 
             case R.id.email_charity_4 : {
                 targetEmail = new String[]{"siobhan@bridge.ie"};
+                break;
+            }
+
+            case R.id.email_charity_5 : {
+                targetEmail = new String[]{"foi@justice.ie"};
+                break;
+            }
+
+            case R.id.email_charity_6 : {
+                targetEmail = new String[]{"ciofeedback@ciboard.ie"};
                 break;
             }
         }
@@ -123,6 +143,16 @@ public class ExternalLinksActivity extends AppCompatActivity {
     public void FormActivity4 (View view){
         Intent intent = new Intent(this,ExternalLinksActivity.class);
         createDialogIntent4(this, intent);
+    }
+
+    public void FormActivity5 (View view){
+        Intent intent = new Intent(this,ExternalLinksActivity.class);
+        createDialogIntent5(this, intent);
+    }
+
+    public void FormActivity6 (View view){
+        Intent intent = new Intent(this,ExternalLinksActivity.class);
+        createDialogIntent6(this, intent);
     }
 
 
@@ -176,6 +206,36 @@ public class ExternalLinksActivity extends AppCompatActivity {
     public static void createDialogIntent4(final Context context, final Intent intent) {
         new AlertDialog.Builder(context).setTitle(R.string.alert_title4)
                 .setMessage(R.string.alert_message4)
+                .setIcon(R.drawable.ic_external_links)
+                .setPositiveButton(R.string.alert_disagree_option1, new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        //this is what happens when Accept is clicked
+                        //context.startActivity(intent);
+                    }
+                }).show();
+
+    }
+
+    //for additional info on the charities justice.ie
+    public static void createDialogIntent5(final Context context, final Intent intent) {
+        new AlertDialog.Builder(context).setTitle(R.string.alert_title5)
+                .setMessage(R.string.alert_message5)
+                .setIcon(R.drawable.ic_external_links)
+                .setPositiveButton(R.string.alert_disagree_option1, new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        //this is what happens when Accept is clicked
+                        //context.startActivity(intent);
+                    }
+                }).show();
+
+    }
+
+    //for additional info on the charities citizensinformation
+    public static void createDialogIntent6(final Context context, final Intent intent) {
+        new AlertDialog.Builder(context).setTitle(R.string.alert_title6)
+                .setMessage(R.string.alert_message6)
                 .setIcon(R.drawable.ic_external_links)
                 .setPositiveButton(R.string.alert_disagree_option1, new DialogInterface.OnClickListener() {
                     @Override

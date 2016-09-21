@@ -64,6 +64,12 @@
     <string name="charity4"><a href="http://www.bridge.ie">www.bridge.ie</a></string>
     <string name="charity4Phone">018 78 0901</string>
 
+    <string name="charity5"><a href="http://www.justice.ie">www.justice.ie</a></string>
+    <string name="charity5Phone">1890 221 227</string>
+
+    <string name="charity6"><a href="http://www.citizensinformation.ie">www.citizensinformation.ie</a></string>
+    <string name="charity6Phone">0761 07 4000</string>
+
 
     <!--for the external links pop ups-->
     <string name="alert_title1"><u>\tCare After Prison</u></string>
@@ -99,6 +105,19 @@
         \nwith adult offenders in the criminal justice system with a specific focus on alternatives to offending,
         \ncustody and re-imprisonment. This is achieved through the provision of direct
         \nservices to offenders both in the community and in all Irish prisons.</string>
+
+    <string name="alert_title5"><u>\tDEPARTMENT OF JUSTICE AND EQUALITY</u></string>
+    <string name="alert_message5">\n<b>Website:</b> www.justice.ie
+                                    \n<b>Email:</b> foi@justice.ie
+                                    \n<b>Phone:</b> 1890 221 227
+                                    </string>
+
+    <string name="alert_title6"><u>\tCitizens Information</u></string>
+    <string name="alert_message6">\n<b>Website:</b> www.citizensinformation.ie
+                                    \n<b>Email:</b> ciofeedback@ciboard.ie.
+                                    \n<b>Phone:</b> +353 761 07 9000
+                                    </string>
+
 
     <string name="alert_agree_option1">top</string>
     <string name="alert_disagree_option1">back</string>
