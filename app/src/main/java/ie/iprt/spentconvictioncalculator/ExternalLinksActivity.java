@@ -4,6 +4,8 @@ import android.content.ActivityNotFoundException;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.graphics.Paint;
+import android.graphics.Typeface;
 import android.net.Uri;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
@@ -16,14 +18,27 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import org.w3c.dom.Text;
+
 public class ExternalLinksActivity extends AppCompatActivity {
 
     public static Button btnEmail;
+    private TextView mWhoCanHelp;
+    private TextView mCitizenLink;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_external_links);
+        //Tomas added
+        mWhoCanHelp = (TextView) findViewById(R.id.who_can_help_title_page);
+        Typeface tf = Typeface.createFromAsset(getAssets(), "fonts/american_typewriter_font.ttf");
+        mWhoCanHelp.setTypeface(tf);
+        TextView whoCanHelpTitle = (TextView) findViewById(R.id.who_can_help_title_page);
+        whoCanHelpTitle.setPaintFlags(whoCanHelpTitle.getPaintFlags()| Paint.UNDERLINE_TEXT_FLAG);
+        whoCanHelpTitle.setTypeface(tf, Typeface.BOLD);
+        TextView mCitizenLink = (TextView) findViewById(R.id.link6);
+        mCitizenLink.setTypeface(tf);
 
 
     }

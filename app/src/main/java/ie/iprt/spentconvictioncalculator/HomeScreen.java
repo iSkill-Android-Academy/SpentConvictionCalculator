@@ -37,6 +37,8 @@ public class HomeScreen extends AppCompatActivity {
         mSubtitle =(TextView) findViewById(R.id.subtitle);
         mSubtitle.setTypeface(tf);
 
+
+
     }
 
     public void onViewButtonClicked(View view) {

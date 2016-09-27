@@ -1,5 +1,6 @@
 <resources>
     <string name="instructions_title"><u><b>How to Use</b></u></string>
+    <string name="who_can_help_title_page">Who can Help</string>
 
     <string name="form_instructions_page_button"><u><b>Calculate: </b></u>Questionnaire page is designed to help you calculate whether your convictions are spent, and guide you on next step.</string>
     <string name="external_links_instructions_page_button"><u><b>Who can help: </b></u>Links to organisations that help and support people who have more serious criminal records.</string>
