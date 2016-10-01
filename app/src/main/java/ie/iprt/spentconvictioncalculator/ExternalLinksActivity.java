@@ -39,6 +39,16 @@ public class ExternalLinksActivity extends AppCompatActivity {
         whoCanHelpTitle.setTypeface(tf, Typeface.BOLD);
         TextView mCitizenLink = (TextView) findViewById(R.id.link6);
         mCitizenLink.setTypeface(tf);
+        TextView mJusticeLink =(TextView) findViewById(R.id.link5);
+        mJusticeLink.setTypeface(tf);
+        TextView mCareAfterPrisonLink = (TextView) findViewById(R.id.link3);
+        mCareAfterPrisonLink.setTypeface(tf);
+        TextView mUcasadh = (TextView) findViewById(R.id.link2);
+        mUcasadh.setTypeface(tf);
+        TextView mBridge =(TextView) findViewById(R.id.link4);
+        mBridge.setTypeface(tf);
+        TextView mIasio = (TextView) findViewById(R.id.link1);
+        mIasio.setTypeface(tf);
 
 
     }

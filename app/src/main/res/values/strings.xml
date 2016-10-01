@@ -57,55 +57,45 @@
     <string name="charity1Phone">01 866 2706</string>
 
     <string name="charity2"><a href="http://www.ucasadh.ie">www.ucasadh.ie   </a></string>
-    <string name="charity2Phone">051 830 479</string>
+    <string name="charity2Phone">05 183 0479</string>
 
     <string name="charity3"><a href="http://www.careafterprison.ie">www.careafterprison.ie</a></string>
     <string name="charity3Phone">01 472 0973</string>
 
     <string name="charity4"><a href="http://www.bridge.ie">www.bridge.ie</a></string>
-    <string name="charity4Phone">018 78 0901</string>
+    <string name="charity4Phone">01 878 0901</string>
 
     <string name="charity5"><a href="http://www.justice.ie">www.justice.ie</a></string>
     <string name="charity5Phone">1890 221 227</string>
 
     <string name="charity6"><a href="http://www.citizensinformation.ie">www.citizensinformation.ie</a></string>
-    <string name="charity6Phone">0761 07 4000</string>
+    <string name="charity6Phone">076 107 4000</string>
 
 
     <!--for the external links pop ups-->
     <string name="alert_title1"><u>\tCare After Prison</u></string>
     <string name="alert_message1">\n<b>Website:</b> www.careafterprison.ie
                                     \n<b>Email:</b> info@careafterprison.ie
-                                    \n<b>Phone:</b> 01 4720973
-                                    \n\nCare After Prison is a peer led charity organisation which provides
-                                    \ninformation, support and referral for ex-offenders their families and
-                                    \nvictims of crime.</string>
+                                    \n<b>Phone:</b> 01 472 0973
+                                    \n\nCare After Prison is a peer led charity organisation which provides information, support and referral for ex-offenders their families and victims of crime.</string>
 
     <string name="alert_title2"><u>\tThe U-Casadh Project</u></string>
     <string name="alert_message2">\n<b>Website:</b> www.ucasadh.ie
                                     \n<b>Email:</b> press@ucasadh.ie
-                                    \n<b>Phone:</b> 051 830479
-                                    \n\nWe are a social inclusion project and registered charity
-        \nbased on the border of Waterford and Kilkenny. Our
-        \nmission is to be a catalyst for change in attitudes to crime,
-        \nsocial exclusion, rehabilitation and justice.</string>
+                                    \n<b>Phone:</b> 05 183 0479
+                                    \n\nWe are a social inclusion project and registered charity based on the border of Waterford and Kilkenny. Our mission is to be a catalyst for change in attitudes to crime, social exclusion, rehabilitation and justice.</string>
 
     <string name="alert_title3"><u>\tBridge</u></string>
     <string name="alert_message3">\n<b>Website:</b> www.bridge.ie
                                     \n<b>Email:</b> siobhan@bridge.ie
-                                    \n<b>Phone:</b> 01 8780901
-                                    \n\nThere are a number of exciting developments taking place for Bridge in 2015
-        \nwith one of them being the launch of our new website.
-        \nWe expect it to be up and running by the end of February so check back then to find out what we do.</string>
+                                    \n<b>Phone:</b> 01 878 0901
+                                    \n\nThere are a number of exciting developments taking place for Bridge in 2015 with one of them being the launch of our new website. We expect it to be up and running by the end of February so check back then to find out what we do.</string>
 
     <string name="alert_title4"><u>\tIrish Association for the Social Integration of Offenders</u></string>
     <string name="alert_message4">\n<b>Website:</b> www.iasio.ie
                                     \n<b>Email:</b> prichardson@iasio.ie
-                                    \n<b>Phone:</b> 01 8662706
-                                    \n\nAs a large community based organisation with a national remit IASIO works
-        \nwith adult offenders in the criminal justice system with a specific focus on alternatives to offending,
-        \ncustody and re-imprisonment. This is achieved through the provision of direct
-        \nservices to offenders both in the community and in all Irish prisons.</string>
+                                    \n<b>Phone:</b> 01 866 2706
+                                    \n\nAs a large community based organisation with a national remit IASIO works with adult offenders in the criminal justice system with a specific focus on alternatives to offending, custody and re-imprisonment. This is achieved through the provision of direct services to offenders both in the community and in all Irish prisons.</string>
 
     <string name="alert_title5"><u>\tDEPARTMENT OF JUSTICE AND EQUALITY</u></string>
     <string name="alert_message5">\n<b>Website:</b> www.justice.ie
@@ -116,7 +106,7 @@
     <string name="alert_title6"><u>\tCitizens Information</u></string>
     <string name="alert_message6">\n<b>Website:</b> www.citizensinformation.ie
                                     \n<b>Email:</b> ciofeedback@ciboard.ie.
-                                    \n<b>Phone:</b> +353 761 07 9000
+                                    \n<b>Phone:</b> 076 107 9000
                                     </string>
 
 
@@ -135,7 +125,7 @@
     <string name="alert_message"><b>To proceed you must agree to the below disclaimer.</b>
                                     \n\nThis information should only be used as a guide, it is not legal advice.
                                     \nIf in doubt please contact a legal professional.
-                                    \nIPRT is not responsible for any inaccurate results or future changes in the law.</string>
+                                    \n\nIPRT is not responsible for any inaccurate results or future changes in the law.</string>
     <string name="alert_agree_option">Accept</string>
     <string name="alert_disagree_option">Decline</string>
     <string name="alert_disagree_toast">In order to proceed, you need to accept</string>

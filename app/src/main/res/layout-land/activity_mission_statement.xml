@@ -66,6 +66,7 @@
                 android:paddingTop="10dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textSize="15dp"
                 android:textColor="@color/black"
                 android:text="@string/form_instructions_page_button"/>
         </LinearLayout>
@@ -102,6 +103,7 @@
                 android:paddingTop="10dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textSize="15dp"
                 android:textColor="@color/black"
                 android:text="@string/external_links_instructions_page_button"/>
         </LinearLayout>
@@ -138,6 +140,7 @@
                 android:paddingTop="10dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textSize="15dp"
                 android:textColor="@color/black"
                 android:text="@string/about_instructions_page_button"/>
         </LinearLayout>
