@@ -159,7 +159,7 @@ public class FormActivity extends AppCompatActivity {
             }else {
 
 
-                resultsLogic = "Your conviction(s) is not spent. \n\nIf asked, you still have to declare the conviction as the 7 year period for an adult has passed.";
+                resultsLogic = "Your conviction(s) is not spent. \n\nIf asked, you still have to declare the conviction as the 7 year period for an adult has not passed.";
             }
         }
     }
