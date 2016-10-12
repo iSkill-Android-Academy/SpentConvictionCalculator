@@ -46,6 +46,8 @@
 
     <array name="punishment_array">
         <item>Conditional discharge</item>
+        <item>Prison sentence shorter than 12 months</item>
+        <item>Suspended sentence shorter than 24 months, not revoked</item>
         <item>Prison sentence longer than 12 months</item>
         <item>Suspended sentence of more than 24 months</item>
         <item>Other (e.g. fine, community service, etc.)</item>
