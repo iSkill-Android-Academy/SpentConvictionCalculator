@@ -84,7 +84,7 @@ public class FormActivity extends AppCompatActivity {
 
 
 
-        if (mOffenseSpinner.getSelectedItem().toString().equals("Sexual offense") ||
+        if (mOffenseSpinner.getSelectedItem().toString().equals("Sexual offence") ||
                 mOffenseSpinner.getSelectedItem().toString().equals("Homicide") ||
                 mOffenseSpinner.getSelectedItem().toString().equals("Dangerous Driving") ||
                 mCourtSpinner.getSelectedItem().toString().equals("Central Criminal Court") ||
