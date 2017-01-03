@@ -124,13 +124,13 @@
     <string name="about_manin_scr">About</string>
 
     <string name="alert_title"><u>Disclaimer</u></string>
-    <string name="alert_message"><b>To proceed you must agree to the below disclaimer.</b>
-                                    \n\nThis information should only be used as a guide, it is not legal advice.
-                                    \nIf in doubt please contact a legal professional.
+    <string name="alert_message"><b>By clicking ACCEPT below, you agree to the following:</b>
+                                    \n\nThe information provided within this app should only be used as a guide, it is not legal advice.
+                                    \nIf in doubt please consult with a legal professional.
                                     \n\nIPRT is not responsible for any inaccurate results or future changes in the law.</string>
-    <string name="alert_agree_option">Accept</string>
-    <string name="alert_disagree_option">Decline</string>
-    <string name="alert_disagree_toast">In order to proceed, you need to accept</string>
+    <string name="alert_agree_option">ACCEPT</string>
+    <string name="alert_disagree_option">DECLINE</string>
+    <string name="alert_disagree_toast">In order to proceed, you must agree to the disclaimer</string>
     <string name="subtitle">Are my convictions spent?</string>
 
 
